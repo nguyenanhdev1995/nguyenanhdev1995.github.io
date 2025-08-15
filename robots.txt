@@ -1,2 +1,3 @@
-User-agent: Google-adstxt
-Disallow:
+user-agent: Googlebot
+allow: /archive/1Q84
+disallow: /archive
