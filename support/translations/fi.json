@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "language": "Finnish",
+        "native": "Suomi",
+        "direction": "ltr"
+    },
+    "translation": {
+        "main-title": "DA ServePro tuki",
+        "main-subtitle": "Monialustainen myyntinhallintaratkaisu",
+        "intro-title": "Tietoja DA ServePro",
+        "intro-text": "DA ServePro-sovellus auttaa kauppiaita ja työntekijöitä seuraamaan myyntiä tehokkaasti. Sopii ravintoloihin, vähittäiskauppaan ja palveluihin.",
+        "features-title": "Pääominaisuudet",
+        "feature1-title": "Nopea tilaus",
+        "feature1-text": "Minimalistinen käyttöliittymä, tilaukset 3 sekunnissa",
+        "feature2-title": "Tilausten hallinta",
+        "feature2-text": "Reaaliaikainen seuranta kaikilla laitteilla",
+        "feature3-title": "Älykkäät raportit",
+        "feature3-text": "Automaattinen yhteenveto tuloista, tilauksista ja myydyimmistä tuotteista",
+        "feature4-title": "Yksityiskohtaiset käyttöoikeudet",
+        "feature4-text": "Aseta tietyt roolit ja oikeudet jokaiselle työntekijälle",
+        "feature5-title": "Monialustainen synkronointi",
+        "feature5-text": "Tiedot synkronoidaan ja tallennetaan turvallisesti",
+        "feature6-title": "Kehittynyt turvallisuus",
+        "feature6-text": "2-kerroksinen salaus, vain tilinomistajalla on pääsy",
+        "contact-title": "Ota yhteyttä tukeen",
+        "contact-text": "Kysymyksiä tai apua:",
+        "email": "Sähköposti: nguyenanhdev1995@gmail.com",
+        "address": "Osoite: D1-katu 52, Phuoc Long B, Thu Duc, Ho Chi Minh City",
+        "footer-text": "© 2023 DA ServePro. Kaikki oikeudet pidätetään"
+    }
+}

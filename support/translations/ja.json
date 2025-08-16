@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "language": "Japanese",
+        "native": "日本語",
+        "direction": "ltr"
+    },
+    "translation": {
+        "main-title": "DA ServePro サポート",
+        "main-subtitle": "マルチプラットフォーム販売管理ソリューション",
+        "intro-title": "DA ServeProについて",
+        "intro-text": "DA ServeProアプリは、店舗オーナーと従業員が販売活動を効果的に追跡できるよう支援します。飲食店、小売店、サービス業など、あらゆる業種に対応可能です。",
+        "features-title": "主な機能",
+        "feature1-title": "クイックオーダー",
+        "feature1-text": "シンプルなインターフェースで3秒で注文作成",
+        "feature2-title": "注文管理",
+        "feature2-text": "全デバイスで注文状況をリアルタイム追跡",
+        "feature3-title": "スマートレポート",
+        "feature3-text": "売上、注文、人気商品を自動集計",
+        "feature4-title": "詳細な権限設定",
+        "feature4-text": "従業員ごとに特定の役割と権限を設定",
+        "feature5-title": "マルチプラットフォーム同期",
+        "feature5-text": "データは常に同期され安全に保存",
+        "feature6-title": "高度なセキュリティ",
+        "feature6-text": "2段階データ暗号化、アカウント所有者のみアクセス可能",
+        "contact-title": "サポート窓口",
+        "contact-text": "お問い合わせは以下までご連絡ください:",
+        "email": "メール: nguyenanhdev1995@gmail.com",
+        "address": "住所: ベトナム ホーチミン市 トゥードゥック区 フォックロンB D1通り52番地",
+        "footer-text": "© 2023 DA ServePro. DAテクノロジー株式会社の著作物"
+    }
+}

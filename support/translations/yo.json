@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "language": "Yoruba",
+        "native": "Yorùbá",
+        "direction": "ltr"
+    },
+    "translation": {
+        "main-title": "Atilẹyin DA ServePro",
+        "main-subtitle": "Ọna iṣakoso tita lori ọpọlọpọ awọn ibaraẹnisọrọ",
+        "intro-title": "Nipa DA ServePro",
+        "intro-text": "Ohun elo DA ServePro ṣe iranlọwọ fun awọn oniṣọ ati awọn oṣiṣẹ lati tọpa awọn iṣẹ tita ni ọna ti o wulo. Yẹ fun F&B, tita ati awọn iṣẹ.",
+        "features-title": "Awọn ẹya Pataki",
+        "feature1-title": "Bere fun Laisi Itẹlọrun",
+        "feature1-text": "Alabase, ibere fun ni aaya 3",
+        "feature2-title": "Iṣakoso Ibere",
+        "feature2-text": "Ṣiṣe akoso gangan lori gbogbo ẹrọ",
+        "feature3-title": "Awọn Iroyin Ologbon",
+        "feature3-text": "Akopọ aifọwọyi ti owo wọle, awọn ibere ati awọn nkan tita julọ",
+        "feature4-title": "Awọn Iyọnda Alaye",
+        "feature4-text": "Ṣeto awọn ipa ati awọn iyọnda pataki fun oṣiṣẹ kọọkan",
+        "feature5-title": "Iṣiro ọpọlọpọ ibaraẹnisọrọ",
+        "feature5-text": "Awọn data ti wa ni isiro ati ipamọ ni aabo",
+        "feature6-title": "Aabo Giga",
+        "feature6-text": "2-layer iṣako, olumulo nikan ni o ni anfani",
+        "contact-title": "Kan si Atilẹyin",
+        "contact-text": "Fun ibeere tabi iranlọwọ:",
+        "email": "Imeeli: nguyenanhdev1995@gmail.com",
+        "address": "Adirẹsi: 52 D1 Street, Phuoc Long B, Thu Duc, Ho Chi Minh City",
+        "footer-text": "© 2023 DA ServePro. Gbogbo ẹtọ wa ni ipamọ"
+    }
+}

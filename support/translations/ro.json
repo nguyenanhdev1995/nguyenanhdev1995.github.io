@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "language": "Romanian",
+        "native": "Română",
+        "direction": "ltr"
+    },
+    "translation": {
+        "main-title": "Suport DA ServePro",
+        "main-subtitle": "Soluție de management a vânzărilor multiplatformă",
+        "intro-title": "Despre DA ServePro",
+        "intro-text": "Aplicația DA ServePro ajută proprietarii de magazine și angajații să urmărească eficient activitățile de vânzare. Potrivită pentru HORECA, retail și servicii.",
+        "features-title": "Caracteristici principale",
+        "feature1-title": "Comandă rapidă",
+        "feature1-text": "Interfață minimalistă, comenzi în 3 secunde",
+        "feature2-title": "Gestionare comenzi",
+        "feature2-text": "Urmărire în timp real pe toate dispozitivele",
+        "feature3-title": "Rapoarte inteligente",
+        "feature3-text": "Rezumat automat al veniturilor, comenzilor și produselor cele mai vândute",
+        "feature4-title": "Permisiuni detaliate",
+        "feature4-text": "Setare roluri și permisiuni specifice pentru fiecare angajat",
+        "feature5-title": "Sincronizare multiplatformă",
+        "feature5-text": "Datele sunt sincronizate și stocate în siguranță",
+        "feature6-title": "Securitate avansată",
+        "feature6-text": "Criptare pe 2 niveluri, doar proprietarul contului are acces",
+        "contact-title": "Contact suport",
+        "contact-text": "Pentru întrebări sau asistență:",
+        "email": "Email: nguyenanhdev1995@gmail.com",
+        "address": "Adresă: Strada D1 52, Phuoc Long B, Thu Duc, Orașul Ho Chi Minh",
+        "footer-text": "© 2023 DA ServePro. Toate drepturile rezervate"
+    }
+}

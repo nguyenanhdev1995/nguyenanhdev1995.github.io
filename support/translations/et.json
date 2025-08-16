@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "language": "Estonian",
+        "native": "Eesti",
+        "direction": "ltr"
+    },
+    "translation": {
+        "main-title": "DA ServePro tugi",
+        "main-subtitle": "Mitmeplatvormiline müügihalduslahendus",
+        "intro-title": "Teave DA ServePro kohta",
+        "intro-text": "DA ServePro rakendus aitab poe omanikel ja töötajatel müügitegevust tõhusalt jälgida. Sobib toitlustusele, jaemüügile ja teenustele.",
+        "features-title": "Peamised funktsioonid",
+        "feature1-title": "Kiire tellimus",
+        "feature1-text": "Minimalistlik liides, tellimused 3 sekundiga",
+        "feature2-title": "Tellimuste haldamine",
+        "feature2-text": "Reaalajas jälgimine kõigil seadmetel",
+        "feature3-title": "Nutikad aruanded",
+        "feature3-text": "Automaatne tulude, tellimuste ja enim müüdud toodete kokkuvõte",
+        "feature4-title": "Üksikasjalikud õigused",
+        "feature4-text": "Määra igale töötajale spetsiifilised rollid ja õigused",
+        "feature5-title": "Mitmeplatvormiline sünkroonimine",
+        "feature5-text": "Andmed sünkroonitakse ja hoitakse turvaliselt",
+        "feature6-title": "Täiustatud turvalisus",
+        "feature6-text": "2-kihiline krüpteerimine, ligipääs ainult konto omanikul",
+        "contact-title": "Võta ühendust tugiga",
+        "contact-text": "Küsimuste või abi korral:",
+        "email": "E-post: nguyenanhdev1995@gmail.com",
+        "address": "Aadress: D1 tänav 52, Phuoc Long B, Thu Duc, Ho Chi Minh linn",
+        "footer-text": "© 2023 DA ServePro. Kõik õigused kaitstud"
+    }
+}

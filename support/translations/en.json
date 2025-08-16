@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "language": "English",
+        "native": "English",
+        "direction": "ltr"
+    },
+    "translation": {
+        "main-title": "DA ServePro Support",
+        "main-subtitle": "Multi-platform sales management solution",
+        "intro-title": "About DA ServePro",
+        "intro-text": "DA ServePro application helps store owners and employees track sales activities effectively anytime, anywhere. Suitable for all business types from F&B, retail to services.",
+        "features-title": "Key Features",
+        "feature1-title": "Quick Order",
+        "feature1-text": "Minimalist interface, fast operation, create orders in just 3 seconds",
+        "feature2-title": "Order Management",
+        "feature2-text": "Real-time order status tracking across all devices",
+        "feature3-title": "Smart Reports",
+        "feature3-text": "Automatically summarize revenue, orders, best-selling items in real time",
+        "feature4-title": "Detailed Permissions",
+        "feature4-text": "Set specific roles and permissions for each employee",
+        "feature5-title": "Multi-platform Sync",
+        "feature5-text": "Data is continuously synced and securely stored",
+        "feature6-title": "Advanced Security",
+        "feature6-text": "2-layer data encryption, only account owner has access rights",
+        "contact-title": "Contact Support",
+        "contact-text": "For any inquiries or support requests, please contact:",
+        "email": "Email: nguyenanhdev1995@gmail.com",
+        "address": "Address: 52 D1 Street, Phuoc Long B, Thu Duc, HCMC",
+        "footer-text": "© 2023 DA ServePro. All rights reserved by DA Technology Co., Ltd"
+    }
+}

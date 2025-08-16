@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "language": "Azerbaijani",
+        "native": "Azərbaycanca",
+        "direction": "ltr"
+    },
+    "translation": {
+        "main-title": "DA ServePro Dəstəyi",
+        "main-subtitle": "Çox platformalı satış idarəetmə həlli",
+        "intro-title": "DA ServePro haqqında",
+        "intro-text": "DA ServePro tətbiqi mağaza sahiblərinə və işçilərə satış fəaliyyətini effektiv şəkildə izləməyə kömək edir. Qida, pərakəndə və xidmətlər üçün uyğundur.",
+        "features-title": "Əsas xüsusiyyətlər",
+        "feature1-title": "Sürətli sifariş",
+        "feature1-text": "Minimalist interfeys, 3 saniyəyə sifariş yaradın",
+        "feature2-title": "Sifariş idarəetmə",
+        "feature2-text": "Bütün cihazlarda real vaxt rejimində izləmə",
+        "feature3-title": "Ağıllı hesabatlar",
+        "feature3-text": "Gəlir, sifariş və ən çox satılan məhsulların avtomatik xülasəsi",
+        "feature4-title": "Ətraflı icazələr",
+        "feature4-text": "Hər işçi üçün xüsusi rollar və icazələr təyin edin",
+        "feature5-title": "Çox platformalı sinxronizasiya",
+        "feature5-text": "Məlumatlar təhlükəsiz şəkildə sinxronizasiya və saxlanılır",
+        "feature6-title": "Təkmilləşdirilmiş təhlükəsizlik",
+        "feature6-text": "2 qatlı şifrələmə, yalnız hesab sahibinin girişi var",
+        "contact-title": "Dəstək ilə əlaqə",
+        "contact-text": "Suallar və ya kömək üçün:",
+        "email": "E-poçt: nguyenanhdev1995@gmail.com",
+        "address": "Ünvan: D1 küçəsi 52, Phuoc Long B, Thu Duc, Ho Chi Minh",
+        "footer-text": "© 2023 DA ServePro. Bütün hüquqlar qorunur"
+    }
+}

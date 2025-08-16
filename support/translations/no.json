@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "language": "Norwegian",
+        "native": "Norsk",
+        "direction": "ltr"
+    },
+    "translation": {
+        "main-title": "DA ServePro støtte",
+        "main-subtitle": "Multiplattform salgsadministrasjonsløsning",
+        "intro-title": "Om DA ServePro",
+        "intro-text": "DA ServePro-appen hjelper butikkeiere og ansatte med å effektivt spore salgsaktiviteter. Passer for matservering, detaljhandel og tjenester.",
+        "features-title": "Hovedfunksjoner",
+        "feature1-title": "Rask bestilling",
+        "feature1-text": "Minimalistisk grensesnitt, bestillinger på 3 sekunder",
+        "feature2-title": "Ordrehåndtering",
+        "feature2-text": "Sanntidssporing på alle enheter",
+        "feature3-title": "Smarte rapporter",
+        "feature3-text": "Automatisk sammendrag av inntekter, ordrer og bestselgere",
+        "feature4-title": "Detaljerte tillatelser",
+        "feature4-text": "Angi spesifikke roller og tillatelser for hver ansatt",
+        "feature5-title": "Multiplattform synkronisering",
+        "feature5-text": "Data synkroniseres og lagres sikkert",
+        "feature6-title": "Avansert sikkerhet",
+        "feature6-text": "2-lags kryptering, bare kontoeier har tilgang",
+        "contact-title": "Kontakt støtte",
+        "contact-text": "For spørsmål eller hjelp:",
+        "email": "E-post: nguyenanhdev1995@gmail.com",
+        "address": "Adresse: D1 gate 52, Phuoc Long B, Thu Duc, Ho Chi Minh-byen",
+        "footer-text": "© 2023 DA ServePro. Alle rettigheter reservert"
+    }
+}

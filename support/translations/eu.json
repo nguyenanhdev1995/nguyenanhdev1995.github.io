@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "language": "Basque",
+        "native": "Euskara",
+        "direction": "ltr"
+    },
+    "translation": {
+        "main-title": "DA ServePro Laguntza",
+        "main-subtitle": "Salmenten kudeaketa multiplataforma",
+        "intro-title": "DA ServePro-ri buruz",
+        "intro-text": "DA ServePro aplikazioak dendako jabeak eta langileak salmenta-jarduerak modu eraginkorrean jarraitzeko laguntzen die. F&B, txikizkako salmentak eta zerbitzuetarako egokia.",
+        "features-title": "Ezaugarri Nagusiak",
+        "feature1-title": "Eskaera Azkarra",
+        "feature1-text": "Interfaze minimalistako, 3 segundotan eskaerak",
+        "feature2-title": "Eskaera Kudeaketa",
+        "feature2-text": "Gailu guztietan denbora errealean jarraipena",
+        "feature3-title": "Txosten Adimendunak",
+        "feature3-text": "Diru-sarrerak, eskaerak eta gehien saltzen diren produktuen laburpen automatikoa",
+        "feature4-title": "Baimen Zehatzak",
+        "feature4-text": "Ezarri rol eta baimen espezifikoak langile bakoitzarentzat",
+        "feature5-title": "Sinkronizazio Multiplataforma",
+        "feature5-text": "Datuak segurtasunez sinkronizatu eta gordetzen dira",
+        "feature6-title": "Segurtasun Aurreratua",
+        "feature6-text": "2 geruzako enkriptatzea, kontuaren jabeak soilik du sarbidea",
+        "contact-title": "Laguntza Kontaktu",
+        "contact-text": "Galderak edo laguntza behar izanez gero:",
+        "email": "Posta elektronikoa: nguyenanhdev1995@gmail.com",
+        "address": "Helbidea: D1 Kalea 52, Phuoc Long B, Thu Duc, Ho Chi Minh Hiria",
+        "footer-text": "© 2023 DA ServePro. Eskubide guztiak erreserbatuta."
+    }
+}

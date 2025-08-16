@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "language": "Arabic",
+        "native": "العربية",
+        "direction": "rtl"
+    },
+    "translation": {
+        "main-title": "دعم DA ServePro",
+        "main-subtitle": "حل إدارة المبيعات متعدد المنصات",
+        "intro-title": "حول DA ServePro",
+        "intro-text": "تطبيق DA ServePro يساعد أصحاب المتاجر والموظفين على تتبع أنشطة المبيعات بفعالية في أي وقت ومكان. مناسب للمطاعم والتجزئة والخدمات.",
+        "features-title": "الميزات الرئيسية",
+        "feature1-title": "طلب سريع",
+        "feature1-text": "واجهة بسيطة، إنشاء طلب في 3 ثوانٍ",
+        "feature2-title": "إدارة الطلبات",
+        "feature2-text": "تتبع حالة الطلب في الوقت الفعلي على جميع الأجهزة",
+        "feature3-title": "تقارير ذكية",
+        "feature3-text": "ملخص تلقائي للإيرادات والطلبات والمنتجات الأكثر مبيعًا",
+        "feature4-title": "صلاحيات مفصلة",
+        "feature4-text": "أدوار وصلاحيات محددة لكل موظف",
+        "feature5-title": "مزامنة متعددة المنصات",
+        "feature5-text": "بيانات متزامنة ومخزنة بأمان",
+        "feature6-title": "أمان متقدم",
+        "feature6-text": "تشفير من مستويين، فقط المالك لديه صلاحية الوصول",
+        "contact-title": "اتصل بالدعم",
+        "contact-text": "للاستفسارات أو المساعدة:",
+        "email": "البريد الإلكتروني: nguyenanhdev1995@gmail.com",
+        "address": "العنوان: 52 شارع D1، فووك لونج B، ثو دوك، مدينة هو تشي منه",
+        "footer-text": "© 2023 DA ServePro. جميع الحقوق محفوظة"
+    }
+}

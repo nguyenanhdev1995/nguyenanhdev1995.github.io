@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "language": "Hebrew",
+        "native": "עברית",
+        "direction": "rtl"
+    },
+    "translation": {
+        "main-title": "תמיכת DA ServePro",
+        "main-subtitle": "פתרון ניהול מכירות רב פלטפורמי",
+        "intro-title": "אודות DA ServePro",
+        "intro-text": "אפליקציית DA ServePro מסייעת לבעלי עסקים ועובדים לעקוב אחר פעילות מכירות בצורה יעילה. מתאים למסעדות, קמעונאות ושירותים.",
+        "features-title": "תכונות עיקריות",
+        "feature1-title": "הזמנה מהירה",
+        "feature1-text": "ממשק מינימליסטי, יצירת הזמנות תוך 3 שניות",
+        "feature2-title": "ניהול הזמנות",
+        "feature2-text": "מעקב בזמן אמת בכל המכשירים",
+        "feature3-title": "דוחות חכמים",
+        "feature3-text": "סיכום אוטומטי של הכנסות, הזמנות ומוצרים נמכרים",
+        "feature4-title": "הרשאות מפורטות",
+        "feature4-text": "הגדרת תפקידים והרשאות ספציפיות לכל עובד",
+        "feature5-title": "סנכרון רב פלטפורמי",
+        "feature5-text": "נתונים מסונכרנים ונשמרים בצורה מאובטחת",
+        "feature6-title": "אבטחה מתקדמת",
+        "feature6-text": "הצפנה דו-שכבתית, רק לבעל החשבון יש גישה",
+        "contact-title": "יצירת קשר עם התמיכה",
+        "contact-text": "לשאלות או סיוע:",
+        "email": "אימייל: nguyenanhdev1995@gmail.com",
+        "address": "כתובת: רחוב D1 52, Phuoc Long B, Thu Duc, הו צ'י מין סיטי",
+        "footer-text": "© 2023 DA ServePro. כל הזכויות שמורות"
+    }
+}

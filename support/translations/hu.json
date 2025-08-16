@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "language": "Hungarian",
+        "native": "Magyar",
+        "direction": "ltr"
+    },
+    "translation": {
+        "main-title": "DA ServePro támogatás",
+        "main-subtitle": "Többplatformos értékesítés-kezelő megoldás",
+        "intro-title": "A DA ServePro-ról",
+        "intro-text": "A DA ServePro alkalmazás segít az üzlet tulajdonosoknak és munkatársaknak hatékonyan nyomon követni az értékesítési tevékenységeket. Ideális éttermeknek, kiskereskedőknek és szolgáltatóknak.",
+        "features-title": "Főbb jellemzők",
+        "feature1-title": "Gyors rendelés",
+        "feature1-text": "Minimalista felület, rendelések 3 másodperc alatt",
+        "feature2-title": "Rendeléskezelés",
+        "feature2-text": "Valós idejű követés minden eszközön",
+        "feature3-title": "Okos jelentések",
+        "feature3-text": "Automatikus összesítés bevételről, rendelésekről és legkelendőbb termékekről",
+        "feature4-title": "Részletes engedélyek",
+        "feature4-text": "Egyedi szerepkörök és jogosultságok minden munkatársnak",
+        "feature5-title": "Többplatformos szinkronizálás",
+        "feature5-text": "Adatok biztonságos szinkronizálása és tárolása",
+        "feature6-title": "Fejlett biztonság",
+        "feature6-text": "2 rétegű titkosítás, csak a fiók tulajdonosának van hozzáférése",
+        "contact-title": "Kapcsolatfelvétel",
+        "contact-text": "Kérdések vagy segítség esetén:",
+        "email": "Email: nguyenanhdev1995@gmail.com",
+        "address": "Cím: D1 utca 52, Phuoc Long B, Thu Duc, Ho Si Minh-város",
+        "footer-text": "© 2023 DA ServePro. Minden jog fenntartva"
+    }
+}

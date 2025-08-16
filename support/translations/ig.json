@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "language": "Igbo",
+        "native": "Igbo",
+        "direction": "ltr"
+    },
+    "translation": {
+        "main-title": "Nkwado DA ServePro",
+        "main-subtitle": "Ngwọta njikwa ahịa n'ọtụtụ nyiwe",
+        "intro-title": "Maka DA ServePro",
+        "intro-text": "Ngwa DA ServePro na-enyere ndị nwe ụlọ ahịa na ndị ọrụ aka ileba anya n'ọrụ ire ahịa nke ọma. Dabara maka F&B, ụlọ ahịa na ọrụ.",
+        "features-title": "Atụmatụ Ndị bụ isi",
+        "feature1-title": "Ịtụ Ngwa Ngwa",
+        "feature1-text": "Ihe ntanetị dị mfe, ịtụ n'ime sekọnd 3",
+        "feature2-title": "Njikwa Ịtụ",
+        "feature2-text": "Nleba anya ozugbo na ngwaọrụ niile",
+        "feature3-title": "Akụkọ Amamihe",
+        "feature3-text": "Nchịkọta akpaaka nke ego enwetara, iwu na ihe ndị kacha ere",
+        "feature4-title": "Ikike zuru ezu",
+        "feature4-text": "Tọọ ọrụ na ikike kpọmkwem maka onye ọrụ ọ bụla",
+        "feature5-title": "Mmekọrịta Ọtụtụ nyiwe",
+        "feature5-text": "A na-ahazi data ma chekwaa ya n'enweghị nsogbu",
+        "feature6-title": "Nchekwa dị elu",
+        "feature6-text": "Izo ya ezo nke abụọ, naanị onye nwe akaụntụ nwere ohere",
+        "contact-title": "Kpọtụrụ Nkwado",
+        "contact-text": "Maka ajụjụ ma ọ bụ enyemaka:",
+        "email": "Email: nguyenanhdev1995@gmail.com",
+        "address": "Adresị: 52 D1 Street, Phuoc Long B, Thu Duc, Obodo Ho Chi Minh",
+        "footer-text": "© 2023 DA ServePro. Echekwara ikike niile"
+    }
+}

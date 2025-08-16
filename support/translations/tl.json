@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "language": "Tagalog",
+        "native": "Tagalog",
+        "direction": "ltr"
+    },
+    "translation": {
+        "main-title": "Suporta ng DA ServePro",
+        "main-subtitle": "Multi-platform na solusyon sa pamamahala ng benta",
+        "intro-title": "Tungkol sa DA ServePro",
+        "intro-text": "Ang app ng DA ServePro ay tumutulong sa mga may-ari ng tindahan at empleyado na subaybayan nang epektibo ang mga aktibidad sa pagbebenta. Angkop para sa F&B, retail at serbisyo.",
+        "features-title": "Pangunahing Tampok",
+        "feature1-title": "Mabilis na Pag-order",
+        "feature1-text": "Minimalist interface, mga order sa loob ng 3 segundo",
+        "feature2-title": "Pamamahala ng Order",
+        "feature2-text": "Real-time na pagsubaybay sa lahat ng device",
+        "feature3-title": "Matalinong Mga Ulat",
+        "feature3-text": "Awtomatikong buod ng kita, order at best-selling item",
+        "feature4-title": "Detalyadong Mga Pahintulot",
+        "feature4-text": "Itakda ang mga tiyak na tungkulin at pahintulot para sa bawat empleyado",
+        "feature5-title": "Multi-platform Sync",
+        "feature5-text": "Ligtas na naka-sync at naka-imbak ang data",
+        "feature6-title": "Advanced na Seguridad",
+        "feature6-text": "2-layer encryption, tanging may-ari ng account ang may access",
+        "contact-title": "Makipag-ugnayan sa Suporta",
+        "contact-text": "Para sa mga tanong o tulong:",
+        "email": "Email: nguyenanhdev1995@gmail.com",
+        "address": "Address: 52 D1 Street, Phuoc Long B, Thu Duc, Ho Chi Minh City",
+        "footer-text": "© 2023 DA ServePro. Lahat ng Karapatan ay Nakalaan"
+    }
+}

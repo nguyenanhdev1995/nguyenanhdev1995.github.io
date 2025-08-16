@@ -1,0 +1,29 @@
+{
+    "meta": {
+        "language": "Bambara",
+        "native": "Bamanankan",
+        "direction": "ltr"
+    },
+    "translation": {
+        "main-title": "DA ServePro Dɛmɛ",
+        "main-subtitle": "Faratiɲɛnajɛ siratigɛ laadaleminen",
+        "intro-title": "DA ServePro Yɛrɛmahɔrɔnya",
+        "intro-text": "DA ServePro aplikasɔn bɛ dɛmɛ don butik dɔnbagɛw ani baarakɛlaw ma u ka faratiɲɛnajɛw ɲɛnabɔ ko la. Bɛ se ka sɔrɔ F&B, faratiɲɛnajɛ ani baara la.",
+        "features-title": "Fɛɛrɛ Kɔrɔw",
+        "feature1-title": "Sɔgɔsɔgɔninjɛ Cɛ",
+        "feature1-text": "Interface dɔɔnin, sɔgɔsɔgɔninjɛw kɛ 3 sekondi kɔnɔ",
+        "feature2-title": "Sɔgɔsɔgɔninjɛ Maa",
+        "feature2-text": "Kunnafoni sɛgɛsɛgɛ minɛnw la",
+        "feature3-title": "Rapɔrɛ Hakilijagabɔw",
+        "feature3-text": "Sɔrɔko, sɔgɔsɔgɔninjɛ ani faratiɲɛnajɛ ɲumanw jatebɔ",
+        "feature4-title": "Yamaruya Dafalenw",
+        "feature4-text": "Baarakɛla kelen kelen ma ka baara dilan",
+        "feature5-title": "Faratiɲɛnajɛ Siratigɛ",
+        "feature6-title": "Lakanaɲumaya",
+        "contact-title": "Dɛmɛ Don",
+        "contact-text": "N'ibɛ sɔni k'ibɛ dɛmɛ sɔrɔ:",
+        "email": "Email: nguyenanhdev1995@gmail.com",
+        "address": "Adrɛsi: 52 D1 Dugu, Phuoc Long B, Thu Duc, Ho Chi Minh Dugu",
+        "footer-text": "© 2023 DA ServePro. Danfaraw bɛɛ sigilen don."
+    }
+}

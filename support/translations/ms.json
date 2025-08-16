@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "language": "Malay",
+        "native": "Bahasa Melayu",
+        "direction": "ltr"
+    },
+    "translation": {
+        "main-title": "Sokongan DA ServePro",
+        "main-subtitle": "Penyelesaian pengurusan jualan pelbagai platform",
+        "intro-title": "Mengenai DA ServePro",
+        "intro-text": "Aplikasi DA ServePro membantu pemilik kedai dan pekerja menjejaki jualan dengan berkesan. Sesuai untuk F&B, runcit dan perkhidmatan.",
+        "features-title": "Ciri Utama",
+        "feature1-title": "Pesanan Pantas",
+        "feature1-text": "Antaramuka minimalis, pesanan dalam 3 saat",
+        "feature2-title": "Pengurusan Pesanan",
+        "feature2-text": "Jejak masa nyata di semua peranti",
+        "feature3-title": "Laporan Pintar",
+        "feature3-text": "Ringkasan automatik pendapatan, pesanan dan produk terlaris",
+        "feature4-title": "Kebenaran Terperinci",
+        "feature4-text": "Peranan dan kebenaran khusus untuk setiap pekerja",
+        "feature5-title": "Penyegerakan Pelbagai Platform",
+        "feature5-text": "Data disegerakkan dan disimpan dengan selamat",
+        "feature6-title": "Keselamatan Lanjutan",
+        "feature6-text": "Penyulitan 2 lapisan, hanya pemilik akaun mempunyai akses",
+        "contact-title": "Hubungi Sokongan",
+        "contact-text": "Untuk pertanyaan atau bantuan:",
+        "email": "Email: nguyenanhdev1995@gmail.com",
+        "address": "Alamat: 52 Jalan D1, Phuoc Long B, Thu Duc, Bandar Ho Chi Minh",
+        "footer-text": "© 2023 DA ServePro. Hak Cipta Terpelihara"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "language": "Bosnian",
+        "native": "Bosanski",
+        "direction": "ltr"
+    },
+    "translation": {
+        "main-title": "DA ServePro podrška",
+        "main-subtitle": "Multiplatformno rješenje za upravljanje prodajom",
+        "intro-title": "O DA ServePro",
+        "intro-text": "Aplikacija DA ServePro pomaže vlasnicima radnji i zaposlenicima da efikasno prate prodaju. Pogodno za F&B, maloprodaju i usluge.",
+        "features-title": "Ključne karakteristike",
+        "feature1-title": "Brza narudžba",
+        "feature1-text": "Minimalistički interfejs, narudžbe za 3 sekunde",
+        "feature2-title": "Upravljanje narudžbama",
+        "feature2-text": "Praćenje u realnom vremenu na svim uređajima",
+        "feature3-title": "Pametni izvještaji",
+        "feature3-text": "Automatski sažetak prihoda, narudžbi i najprodavanijih artikala",
+        "feature4-title": "Detaljne dozvole",
+        "feature4-text": "Postavljanje specifičnih uloga i dozvola za svakog zaposlenika",
+        "feature5-title": "Sinhronizacija na više platformi",
+        "feature5-text": "Podaci se sigurno sinhronizuju i pohranjuju",
+        "feature6-title": "Napredna sigurnost",
+        "feature6-text": "2-slojna enkripcija, samo vlasnik računa ima pristup",
+        "contact-title": "Kontaktirajte podršku",
+        "contact-text": "Za pitanja ili pomoć:",
+        "email": "Email: nguyenanhdev1995@gmail.com",
+        "address": "Adresa: Ulica D1 52, Phuoc Long B, Thu Duc, Ho Chi Minh grad",
+        "footer-text": "© 2023 DA ServePro. Sva prava pridržana."
+    }
+}

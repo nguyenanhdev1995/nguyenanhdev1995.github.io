@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "language": "Dutch",
+        "native": "Nederlands",
+        "direction": "ltr"
+    },
+    "translation": {
+        "main-title": "DA ServePro Ondersteuning",
+        "main-subtitle": "Multiplatform verkoopbeheer oplossing",
+        "intro-title": "Over DA ServePro",
+        "intro-text": "De DA ServePro-app helpt winkeliers en medewerkers om verkoopactiviteiten effectief te volgen. Geschikt voor horeca, retail en diensten.",
+        "features-title": "Hoofdfuncties",
+        "feature1-title": "Snelle bestelling",
+        "feature1-text": "Minimalistische interface, bestellingen in 3 seconden",
+        "feature2-title": "Bestelbeheer",
+        "feature2-text": "Realtime tracking op alle apparaten",
+        "feature3-title": "Slimme rapporten",
+        "feature3-text": "Automatische samenvatting van omzet, bestellingen en bestsellers",
+        "feature4-title": "Gedetailleerde machtigingen",
+        "feature4-text": "Specifieke rollen en rechten per medewerker",
+        "feature5-title": "Multiplatform synchronisatie",
+        "feature5-text": "Gegevens veilig gesynchroniseerd en opgeslagen",
+        "feature6-title": "Geavanceerde beveiliging",
+        "feature6-text": "2-laags encryptie, alleen accounteigenaar heeft toegang",
+        "contact-title": "Contact ondersteuning",
+        "contact-text": "Voor vragen of ondersteuning:",
+        "email": "E-mail: nguyenanhdev1995@gmail.com",
+        "address": "Adres: D1 Straat 52, Phuoc Long B, Thu Duc, Ho Chi Minh Stad",
+        "footer-text": "© 2023 DA ServePro. Alle rechten voorbehouden"
+    }
+}

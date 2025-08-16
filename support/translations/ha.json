@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "language": "Hausa",
+        "native": "Hausa",
+        "direction": "rtl"
+    },
+    "translation": {
+        "main-title": "Tallafin DA ServePro",
+        "main-subtitle": "Maganin sarrafa tallace-tallace na dandamali da yawa",
+        "intro-title": "Game da DA ServePro",
+        "intro-text": "Aikace-aikacen DA ServePro yana taimaka wa masu shaguna da ma'aikata su bi ayyukan tallace-tallace yadda ya kamata. Ya dace da F&B, dillali da ayyuka.",
+        "features-title": "Manyan Fasaloli",
+        "feature1-title": "Oda Mai Sauri",
+        "feature1-text": "Mai sauƙi, oda cikin dakika 3",
+        "feature2-title": "Gudanar da Oda",
+        "feature2-text": "Bin diddigin lokaci-lokaci akan duk na'urori",
+        "feature3-title": "Rahotanni Masu Hikima",
+        "feature3-text": "Taƙaitaccen kuɗin shiga, odar da kayayyakin da aka fi siyar da su ta atomatik",
+        "feature4-title": "Izini Cikakke",
+        "feature4-text": "Saita takamaiman ayyuka da izini ga kowane ma'aikaci",
+        "feature5-title": "Aiki Daidai na Dandamali Da Yawa",
+        "feature5-text": "Bayanan suna aiki daidai kuma ana adana su lafiya",
+        "feature6-title": "Tsaro Mai Zurfi",
+        "feature6-text": "Rufaffiyar Layer 2, mai shi ne kawai zai iya shiga",
+        "contact-title": "Tuntuɓi Tallafi",
+        "contact-text": "Don tambayoyi ko taimako:",
+        "email": "Imel: nguyenanhdev1995@gmail.com",
+        "address": "Adireshi: Titin D1 52, Phuoc Long B, Thu Duc, Birnin Ho Chi Minh",
+        "footer-text": "© 2023 DA ServePro. Duk haƙƙoƙin suna kiyayye"
+    }
+}

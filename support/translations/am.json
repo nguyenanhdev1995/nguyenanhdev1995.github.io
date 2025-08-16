@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "language": "Amharic",
+        "native": "አማርኛ",
+        "direction": "ltr"
+    },
+    "translation": {
+        "main-title": "የ DA ServePro ድጋፍ",
+        "main-subtitle": "በርካታ መድረክ የሽያጭ አስተዳደር መፍትሔ",
+        "intro-title": "ስለ DA ServePro",
+        "intro-text": "የ DA ServePro መተግበሪያ ሱቆች ባለቤቶችን እና ሰራተኞችን የሽያጭ እንቅስቃሴዎችን በብቃት እንዲከታተሉ ይረዳቸዋል። ለ F&B፣ ለፍጆታ እና ለአገልግሎቶች ተስማሚ።",
+        "features-title": "ዋና ባህሪያት",
+        "feature1-title": "ፈጣን ትዕዛዝ",
+        "feature1-text": "ቀላል በይነገጽ፣ በ3 ሰከንድ ውስጥ ትዕዛዝ",
+        "feature2-title": "የትዕዛዝ አስተዳደር",
+        "feature2-text": "በቀጥታ በሁሉም መሣሪያዎች ላይ መከታተል",
+        "feature3-title": "�ልቀኞች ሪፖርቶች",
+        "feature3-text": "የገቢ፣ የትዕዛዝ እና በብዛት የሚሸጡ ዕቃዎች አውቶማቲክ ማጠቃለያ",
+        "feature4-title": "ዝርዝር ፈቃዶች",
+        "feature4-text": "ለእያንዳንዱ ሰራተኛ የተለየ ሚና እና ፈቃዶችን ያዘጋጁ",
+        "feature5-title": "በርካታ መድረክ ማመሳሰል",
+        "feature5-text": "ውሂብ በደህንነት ይመሳሰላል እና ይከማቻል",
+        "feature6-title": "የላቀ ደህንነት",
+        "feature6-text": "2-ደረጃ ምስጠራ፣ የመለያ ባለቤት ብቻ መዳረሻ አለው",
+        "contact-title": "ከድጋፍ ጋር ይገናኙ",
+        "contact-text": "ለጥያቄዎች ወይም ለእርዳታ፡-",
+        "email": "ኢሜይል፡ nguyenanhdev1995@gmail.com",
+        "address": "አድራሻ፡ 52 D1 ጎዳና፣ Phuoc Long B፣ Thu Duc፣ ከተማ ሆ ቺ ሚን",
+        "footer-text": "© 2023 DA ServePro. ሁሉም መብቶች የተጠበቁ ናቸው"
+    }
+}

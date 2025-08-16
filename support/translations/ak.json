@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "language": "Akan",
+        "native": "Akan",
+        "direction": "ltr"
+    },
+    "translation": {
+        "main-title": "DA ServePro Mmoa",
+        "main-subtitle": "Nhyehyɛe a wɔde toto dwumadi a wɔtɔn mu",
+        "intro-title": "Ho fa DA ServePro",
+        "intro-text": "DA ServePro app no boa wɔn a wɔyɛ adwuma ne adwumayɛfo ma wɔn ntɔn mmoa kɔ so yie, bere biara, baabiara.",
+        "features-title": "Ahodoɔ a ɛho hia",
+        "feature1-title": "Ntɔn Mmara Tɛtrɛtɛ",
+        "feature1-text": "Interface a ɛyɛ den, dwumadi a ɛnyɛ den, yɛ ntɔn mmara wɔ sɛkond biako mu.",
+        "feature2-title": "Ntɔn Mmara Ho Ntotoeɛ",
+        "feature2-text": "Hwɛ ntɔn mmara tebea wɔ nokware bere mu.",
+        "feature3-title": "Nnwuma Ho Akyinnyegyeɛ",
+        "feature3-text": "Auto boaboa nnwuma, ntɔn mmara, nnwuma a wɔtɔn sen biara,...",
+        "feature4-title": "Adwumayɛfo Tumi",
+        "feature4-text": "To so dwumadi foɔ na ma tumi a ɛda adi pefee ma dwumadi biara.",
+        "feature5-title": "Data Nkitahodiɛ",
+        "feature5-text": "Data nyinaa wɔ hɔ a wɔagye atom.",
+        "feature6-title": "Ahobanbɔ & Nkɔsoɔ",
+        "feature6-text": "Wɔayɛ data no nhwɛsoɔ na wo nkoaa na wowo tumi kɔ hɔ.",
+        "contact-title": "Bɔ Mmɔden",
+        "contact-text": "Sɛ wowɔ nsɛm biara anaa nsɛnnennen a, yɛsrɛ sɛ bɔ mmɔden:",
+        "email": "Email: nguyenanhdev1995@gmail.com",
+        "address": "Adrɛs: 52, D1 Kwan, Phuoc Long B, Thu Duc, Ho Chi Minh Kurow, Vietnam",
+        "footer-text": "© 2023 DA ServePro. Wɔn nyinaa wɔ tumi."
+    }
+}

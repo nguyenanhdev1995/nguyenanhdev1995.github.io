@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "language": "Czech",
+        "native": "Čeština",
+        "direction": "ltr"
+    },
+    "translation": {
+        "main-title": "DA ServePro podpora",
+        "main-subtitle": "Víceplatformové řešení pro správu prodeje",
+        "intro-title": "O DA ServePro",
+        "intro-text": "Aplikace DA ServePro pomáhá majitelům obchodů a zaměstnancům efektivně sledovat prodej. Vhodné pro stravování, maloobchod a služby.",
+        "features-title": "Klíčové funkce",
+        "feature1-title": "Rychlá objednávka",
+        "feature1-text": "Minimalistické rozhraní, objednávky za 3 sekundy",
+        "feature2-title": "Správa objednávek",
+        "feature2-text": "Sledování v reálném čase na všech zařízeních",
+        "feature3-title": "Chytré reporty",
+        "feature3-text": "Automatické shrnutí příjmů, objednávek a nejprodávanějších položek",
+        "feature4-title": "Podrobná oprávnění",
+        "feature4-text": "Nastavení specifických rolí a oprávnění pro každého zaměstnance",
+        "feature5-title": "Víceplatformová synchronizace",
+        "feature5-text": "Data se bezpečně synchronizují a ukládají",
+        "feature6-title": "Pokročilá bezpečnost",
+        "feature6-text": "2-vrstvé šifrování, přístup pouze pro vlastníka účtu",
+        "contact-title": "Kontaktujte podporu",
+        "contact-text": "Pro dotazy nebo pomoc:",
+        "email": "Email: nguyenanhdev1995@gmail.com",
+        "address": "Adresa: Ulice D1 52, Phuoc Long B, Thu Duc, Ho Či Minovo Město",
+        "footer-text": "© 2023 DA ServePro. Všechna práva vyhrazena"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "language": "Aragonese",
+        "native": "Aragonés",
+        "direction": "ltr"
+    },
+    "translation": {
+        "main-title": "Suporte DA ServePro",
+        "main-subtitle": "Solución de chestión de ventas multiplataforma",
+        "intro-title": "Sobre DA ServePro",
+        "intro-text": "L'aplicación DA ServePro aduya a os propietarios de tiendas y empleatos a seguir as actividatz de venta de traza efectiva. Adecuau ta F&B, venda minorista y servicios.",
+        "features-title": "Caracteristicas prencipals",
+        "feature1-title": "Orde rapida",
+        "feature1-text": "Interfaz minimalista, ordens en 3 segundos",
+        "feature2-title": "Chestión d'ordens",
+        "feature2-text": "Seguimiento en tiempo real en totz os dispositivos",
+        "feature3-title": "Informes intelichents",
+        "feature3-text": "Resumen automatico d'ingresos, ordens y productos mas vendius",
+        "feature4-title": "Permisos detallaus",
+        "feature4-text": "Establir rols y permisos especificos ta cada empleato",
+        "feature5-title": "Sincronización multiplataforma",
+        "feature5-text": "Datos sincronizaus y almacenaus de traza segura",
+        "feature6-title": "Seguranza abanzada",
+        "feature6-text": "Criptografía de 2 capas, solo o propietario tiene acceso",
+        "contact-title": "Contactar con suporte",
+        "contact-text": "Ta preguntas u aduya:",
+        "email": "Correu: nguyenanhdev1995@gmail.com",
+        "address": "Dirección: Carrera D1 52, Phuoc Long B, Thu Duc, Ciudat Ho Chi Minh",
+        "footer-text": "© 2023 DA ServePro. Totz os dreitos reservaus."
+    }
+}

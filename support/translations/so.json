@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "language": "Somali",
+        "native": "Soomaali",
+        "direction": "ltr"
+    },
+    "translation": {
+        "main-title": "Taageerada DA ServePro",
+        "main-subtitle": "Xalka maareynta iibka platform-yo badan",
+        "intro-title": "Ku saabsan DA ServePro",
+        "intro-text": "App-ka DA ServePro waxuu ka caawiyaa milkiilayaasha dukaamada iyo shaqaalaha inay si wax ku ool ah u dabagashadaan waxqabadka iibka. Ku habboon F&B, iibka cusboonaysiinta iyo adeegyada.",
+        "features-title": "Astaamaha Muhiimka ah",
+        "feature1-title": "Dalbo Degdeg ah",
+        "feature1-text": "Interface fudud, dalbo 3 ilbiriqsi gudahood",
+        "feature2-title": "Maareynta Dalabka",
+        "feature2-text": "Dabagasho waqtiga dhabta ah qalabka oo dhan",
+        "feature3-title": "Warbixino Xikmadoon",
+        "feature3-text": "Soo koobidka dakhliga, dalabyada iyo alaabta ugu iibsiga badan ee si toos ah loo sameeyo",
+        "feature4-title": "Ogolaanshaha Faahfaahsan",
+        "feature4-text": "Deji doorooyin iyo ogolaansho gaar ah shaqaale kasta",
+        "feature5-title": "Isdhexgalka Platform-yo Badan",
+        "feature5-text": "Xogta waa la isdhexgeliyaa oo la kaydiyay si amaan ah",
+        "feature6-title": "Ammaan Horumarineed",
+        "feature6-text": "2-layer encryption, xoghaye kaliya ayaa heli kara",
+        "contact-title": "La Xiriir Taageerada",
+        "contact-text": "Su'aalo ama caawimaad:",
+        "email": "Email: nguyenanhdev1995@gmail.com",
+        "address": "Cinwaanka: 52 D1 Street, Phuoc Long B, Thu Duc, Magaalada Ho Chi Minh",
+        "footer-text": "© 2023 DA ServePro. Dhammaan xuquuqdu waa la ilaaliyay"
+    }
+}

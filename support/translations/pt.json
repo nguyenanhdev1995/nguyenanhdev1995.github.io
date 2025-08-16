@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "language": "Portuguese",
+        "native": "Português",
+        "direction": "ltr"
+    },
+    "translation": {
+        "main-title": "Suporte DA ServePro",
+        "main-subtitle": "Solução de gestão de vendas multiplataforma",
+        "intro-title": "Sobre o DA ServePro",
+        "intro-text": "O aplicativo DA ServePro ajuda proprietários e funcionários a gerenciar vendas de forma eficiente em qualquer lugar. Adequado para restaurantes, varejo e serviços.",
+        "features-title": "Principais recursos",
+        "feature1-title": "Pedido rápido",
+        "feature1-text": "Interface minimalista, pedidos em 3 segundos",
+        "feature2-title": "Gestão de pedidos",
+        "feature2-text": "Acompanhamento em tempo real em todos dispositivos",
+        "feature3-title": "Relatórios inteligentes",
+        "feature3-text": "Resumo automático de receitas, pedidos e itens mais vendidos",
+        "feature4-title": "Permissões detalhadas",
+        "feature4-text": "Funções e permissões específicas por funcionário",
+        "feature5-title": "Sincronização multiplataforma",
+        "feature5-text": "Dados sincronizados e armazenados com segurança",
+        "feature6-title": "Segurança avançada",
+        "feature6-text": "Criptografia dupla, apenas o proprietário tem acesso",
+        "contact-title": "Contato de suporte",
+        "contact-text": "Para dúvidas ou suporte:",
+        "email": "Email: nguyenanhdev1995@gmail.com",
+        "address": "Endereço: Rua D1, 52, Phuoc Long B, Thu Duc, Cidade de Ho Chi Minh",
+        "footer-text": "© 2023 DA ServePro. Todos os direitos reservados"
+    }
+}

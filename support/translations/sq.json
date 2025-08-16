@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "language": "Albanian",
+        "native": "Shqip",
+        "direction": "ltr"
+    },
+    "translation": {
+        "main-title": "Mbështetje DA ServePro",
+        "main-subtitle": "Zgjidhje për menaxhimin e shitjeve në platforma të shumta",
+        "intro-title": "Rreth DA ServePro",
+        "intro-text": "Aplikacioni DA ServePro ndihmon pronarët e dyqaneve dhe punonjësit të gjurmojnë aktivitetet e shitjeve në mënyrë efektive. I përshtatshëm për ushqim, pakicë dhe shërbime.",
+        "features-title": "Karakteristikat kryesore",
+        "feature1-title": "Porosi e shpejtë",
+        "feature1-text": "Ndërfaqe minimale, krijoni porosi në 3 sekonda",
+        "feature2-title": "Menaxhimi i porosive",
+        "feature2-text": "Gjurmim i statusit të porosive në kohë reale",
+        "feature3-title": "Raportet inteligjente",
+        "feature3-text": "Përmbledhje automatike e të ardhurave, porosive dhe produkteve më të shitura",
+        "feature4-title": "Lejet e detajuara",
+        "feature4-text": "Vendosni role dhe leje specifike për çdo punonjës",
+        "feature5-title": "Sinkronizim shumë-platformësh",
+        "feature5-text": "Të dhënat ruhen dhe sinkronizohen në mënyrë të sigurt",
+        "feature6-title": "Siguri e avancuar",
+        "feature6-text": "Kodim 2-shtresor, vetëm pronari ka qasje",
+        "contact-title": "Kontaktoni mbështetjen",
+        "contact-text": "Për pyetje ose ndihmë:",
+        "email": "Email: nguyenanhdev1995@gmail.com",
+        "address": "Adresa: Rruga D1 52, Phuoc Long B, Thu Duc, Ho Chi Minh",
+        "footer-text": "© 2023 DA ServePro. Të gjitha të drejtat e rezervuara"
+    }
+}

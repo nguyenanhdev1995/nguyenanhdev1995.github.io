@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "language": "French",
+        "native": "Français",
+        "direction": "ltr"
+    },
+    "translation": {
+        "main-title": "Support DA ServePro",
+        "main-subtitle": "Solution de gestion des ventes multi-plateformes",
+        "intro-title": "À propos de DA ServePro",
+        "intro-text": "L'application DA ServePro aide les propriétaires et employés à suivre efficacement les activités de vente à tout moment, n'importe où. Adaptée à tous types de commerces : restauration, vente au détail, services.",
+        "features-title": "Fonctionnalités clés",
+        "feature1-title": "Commande rapide",
+        "feature1-text": "Interface minimaliste, création de commande en 3 secondes",
+        "feature2-title": "Gestion des commandes",
+        "feature2-text": "Suivi en temps réel sur tous appareils",
+        "feature3-title": "Rapports intelligents",
+        "feature3-text": "Synthèse automatique des revenus, commandes et meilleures ventes",
+        "feature4-title": "Permissions détaillées",
+        "feature4-text": "Rôles et permissions spécifiques par employé",
+        "feature5-title": "Synchronisation multi-plateforme",
+        "feature5-text": "Données synchronisées et stockées de manière sécurisée",
+        "feature6-title": "Sécurité avancée",
+        "feature6-text": "Cryptage des données à 2 niveaux, accès réservé",
+        "contact-title": "Support client",
+        "contact-text": "Pour toute question ou demande d'assistance :",
+        "email": "Email : nguyenanhdev1995@gmail.com",
+        "address": "Adresse : 52 rue D1, Phuoc Long B, Thu Duc, Hô Chi Minh-Ville",
+        "footer-text": "© 2023 DA ServePro. Tous droits réservés par DA Technology SARL"
+    }
+}

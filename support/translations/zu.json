@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "language": "Zulu",
+        "native": "isiZulu",
+        "direction": "ltr"
+    },
+    "translation": {
+        "main-title": "Ukusekelwa kwe-DA ServePro",
+        "main-subtitle": "Isixazululo sokuphathwa kwentengiso yamapulatifomu amaningi",
+        "intro-title": "Mayelana ne-DA ServePro",
+        "intro-text": "Uhlelo lwe-DA ServePro lusiza abanikazi bezitolo nabasebenzi ukuthi balandele imisebenzi yokuthengisa ngempumelelo. Ilungele i-F&B, ezitolo kanye nezinsizakalo.",
+        "features-title": "Izici Eziyinhloko",
+        "feature1-title": "Ukubhala Okusheshayo",
+        "feature1-text": "Isibonisi esilula, ama-oda ngemizuzwana emi-3",
+        "feature2-title": "Ukuphathwa Kwama-oda",
+        "feature2-text": "Ukulandelela kwangempela kuzo zonke izisetshenziswa",
+        "feature3-title": "Imibiko Ehlakaniphile",
+        "feature3-text": "Isifinyezo ezenzakalelayo semali engenayo, ama-oda kanye nezinto ezidayiswa kakhulu",
+        "feature4-title": "Izimvume Ezinemininingwane",
+        "feature4-text": "Setha izindima nezimvume ezithile kumsebenzi ngamunye",
+        "feature5-title": "Ukuvumelanisa Amapulatifomu Amaningi",
+        "feature5-text": "Idatha ivumelanisiwe futhi igcinwa ngokuphepha",
+        "feature6-title": "Ezokuphepha Ezithuthukisiwe",
+        "feature6-text": "Ukubethela okungama-2, umnikazi we-akhawunti kuphela ongakwazi ukufinyelela",
+        "contact-title": "Xhumana Nokusekelwa",
+        "contact-text": "Ezimibuzweni noma usizo:",
+        "email": "I-imeyili: nguyenanhdev1995@gmail.com",
+        "address": "Ikheli: 52 D1 Street, Phuoc Long B, Thu Duc, Idolobha lase-Ho Chi Minh",
+        "footer-text": "© 2023 DA ServePro. Zonke izilungelo zigodliwe"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "language": "Chinese",
+        "native": "中文",
+        "direction": "ltr"
+    },
+    "translation": {
+        "main-title": "DA ServePro 支持",
+        "main-subtitle": "多平台销售管理解决方案",
+        "intro-title": "关于 DA ServePro",
+        "intro-text": "DA ServePro 应用程序帮助店主和员工随时随地高效跟踪销售活动。适用于餐饮、零售和服务等各种业务类型。",
+        "features-title": "主要功能",
+        "feature1-title": "快速下单",
+        "feature1-text": "极简界面，快速操作，3秒即可创建订单",
+        "feature2-title": "订单管理",
+        "feature2-text": "跨设备实时跟踪订单状态",
+        "feature3-title": "智能报告",
+        "feature3-text": "实时自动汇总收入、订单和畅销商品",
+        "feature4-title": "详细权限",
+        "feature4-text": "为每位员工设置特定角色和权限",
+        "feature5-title": "多平台同步",
+        "feature5-text": "数据持续同步并安全存储",
+        "feature6-title": "高级安全",
+        "feature6-text": "2层数据加密，仅账户所有者有访问权限",
+        "contact-title": "联系支持",
+        "contact-text": "如有任何疑问或支持请求，请联系：",
+        "email": "电子邮件：nguyenanhdev1995@gmail.com",
+        "address": "地址：越南胡志明市守德郡福隆B坊D1路52号",
+        "footer-text": "© 2023 DA ServePro。DA 科技有限公司版权所有"
+    }
+}

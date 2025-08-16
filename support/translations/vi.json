@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "language": "Vietnamese",
+        "native": "Tiếng Việt",
+        "direction": "ltr"
+    },
+    "translation": {
+        "main-title": "Hỗ trợ DA ServePro",
+        "main-subtitle": "Giải pháp quản lý bán hàng đa nền tảng",
+        "intro-title": "Giới thiệu DA ServePro",
+        "intro-text": "Ứng dụng DA ServePro giúp chủ quán và nhân viên theo dõi hoạt động bán hàng hiệu quả mọi lúc mọi nơi. Phù hợp với mọi loại hình kinh doanh từ F&B, bán lẻ đến dịch vụ.",
+        "features-title": "Tính năng nổi bật",
+        "feature1-title": "Tạo đơn siêu tốc",
+        "feature1-text": "Giao diện tối giản, thao tác nhanh gọn, tạo đơn chỉ trong 3 giây",
+        "feature2-title": "Quản lý đơn hàng",
+        "feature2-text": "Theo dõi trạng thái đơn hàng thời gian thực trên mọi thiết bị",
+        "feature3-title": "Báo cáo thông minh",
+        "feature3-text": "Tự động tổng hợp doanh thu, đơn hàng, món bán chạy theo thời gian thực",
+        "feature4-title": "Phân quyền chi tiết",
+        "feature4-text": "Thiết lập vai trò và quyền hạn riêng cho từng nhân viên",
+        "feature5-title": "Đồng bộ đa nền tảng",
+        "feature5-text": "Dữ liệu được đồng bộ liên tục và lưu trữ an toàn",
+        "feature6-title": "Bảo mật tối ưu",
+        "feature6-text": "Mã hóa dữ liệu 2 lớp, chỉ chủ tài khoản có quyền truy cập",
+        "contact-title": "Liên hệ hỗ trợ",
+        "contact-text": "Mọi thắc mắc hoặc yêu cầu hỗ trợ vui lòng liên hệ:",
+        "email": "Email: nguyenanhdev1995@gmail.com",
+        "address": "Địa chỉ: 52 Đường D1, Phước Long B, Thủ Đức, TP.HCM",
+        "footer-text": "© 2023 DA ServePro. Bản quyền thuộc về Công ty TNHH Công nghệ DA"
+    }
+}

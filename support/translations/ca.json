@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "language": "Catalan",
+        "native": "Català",
+        "direction": "ltr"
+    },
+    "translation": {
+        "main-title": "Suport DA ServePro",
+        "main-subtitle": "Solució de gestió de vendes multiplataforma",
+        "intro-title": "Sobre DA ServePro",
+        "intro-text": "L'aplicació DA ServePro ajuda als propietaris de botigues i empleats a fer un seguiment efectiu de les vendes. Adequat per a F&B, comerç minorista i serveis.",
+        "features-title": "Característiques principals",
+        "feature1-title": "Comanda ràpida",
+        "feature1-text": "Interfície minimalista, comandes en 3 segons",
+        "feature2-title": "Gestió de comandes",
+        "feature2-text": "Seguiment en temps real a tots els dispositius",
+        "feature3-title": "Informes intel·ligents",
+        "feature3-text": "Resum automàtic d'ingressos, comandes i productes més venuts",
+        "feature4-title": "Permisos detallats",
+        "feature4-text": "Establir rols i permisos específics per a cada empleat",
+        "feature5-title": "Sincronització multiplataforma",
+        "feature5-text": "Les dades es sincronitzen i emmagatzemen de forma segura",
+        "feature6-title": "Seguretat avançada",
+        "feature6-text": "Xifratge de 2 capes, només el propietari té accés",
+        "contact-title": "Contactar amb suport",
+        "contact-text": "Per a preguntes o ajuda:",
+        "email": "Correu: nguyenanhdev1995@gmail.com",
+        "address": "Adreça: Carrer D1 52, Phuoc Long B, Thu Duc, Ciutat Ho Chi Minh",
+        "footer-text": "© 2023 DA ServePro. Tots els drets reservats."
+    }
+}

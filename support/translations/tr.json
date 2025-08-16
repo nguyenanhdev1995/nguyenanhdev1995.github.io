@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "language": "Turkish",
+        "native": "Türkçe",
+        "direction": "ltr"
+    },
+    "translation": {
+        "main-title": "DA ServePro Desteği",
+        "main-subtitle": "Çoklu platform satış yönetim çözümü",
+        "intro-title": "DA ServePro Hakkında",
+        "intro-text": "DA ServePro uygulaması, mağaza sahiplerinin ve çalışanların satış faaliyetlerini etkili bir şekilde takip etmesine yardımcı olur. Restoran, perakende ve hizmet sektörlerine uygundur.",
+        "features-title": "Temel Özellikler",
+        "feature1-title": "Hızlı Sipariş",
+        "feature1-text": "Sade arayüz, 3 saniyede sipariş oluşturma",
+        "feature2-title": "Sipariş Yönetimi",
+        "feature2-text": "Tüm cihazlarda gerçek zamanlı takip",
+        "feature3-title": "Akıllı Raporlar",
+        "feature3-text": "Gelir, sipariş ve çok satan ürünlerin otomatik özeti",
+        "feature4-title": "Detaylı İzinler",
+        "feature4-text": "Her çalışan için özel rol ve izinler",
+        "feature5-title": "Çoklu Platform Senkronizasyonu",
+        "feature5-text": "Veriler güvenli şekilde senkronize ve saklanır",
+        "feature6-title": "Gelişmiş Güvenlik",
+        "feature6-text": "2 katmanlı şifreleme, yalnızca hesap sahibi erişebilir",
+        "contact-title": "Destek İletişim",
+        "contact-text": "Sorularınız veya destek için:",
+        "email": "E-posta: nguyenanhdev1995@gmail.com",
+        "address": "Adres: D1 Sokak No:52, Phuoc Long B, Thu Duc, Ho Chi Minh Şehri",
+        "footer-text": "© 2023 DA ServePro. Tüm hakları saklıdır"
+    }
+}

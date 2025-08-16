@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "language": "Swahili",
+        "native": "Kiswahili",
+        "direction": "ltr"
+    },
+    "translation": {
+        "main-title": "Msaada wa DA ServePro",
+        "main-subtitle": "Suluhisho la usimamizi wa mauzo ya anuwai ya majukwaa",
+        "intro-title": "Kuhusu DA ServePro",
+        "intro-text": "Programu ya DA ServePro inasaidia wamiliki wa duka na wafanyikazi kufuatilia shughuli za mauzo kwa ufanisi. Inafaa kwa F&B, rejareja na huduma.",
+        "features-title": "Vipengele Makuu",
+        "feature1-title": "Agizo Haraka",
+        "feature1-text": "Kiolesura rahisi, agizo kwa sekunde 3",
+        "feature2-title": "Usimamizi wa Agizo",
+        "feature2-text": "Ufuatiliaji wa wakati halisi kwenye vifaa vyote",
+        "feature3-title": "Ripoti Akili",
+        "feature3-text": "Muhtasari wa kiotomatiki wa mapato, maagizo na bidhaa zinazouzwa zaidi",
+        "feature4-title": "Ruhusa za kina",
+        "feature4-text": "Weka majukumu na ruhusa maalum kwa kila mfanyakazi",
+        "feature5-title": "Mulinganyo wa Anuwai ya Majukwaa",
+        "feature5-text": "Data inalinganishwa na kuhifadhiwa kwa usalama",
+        "feature6-title": "Usalama wa Juu",
+        "feature6-text": "Usimbaji fiche wa tabaka 2, mwenye akaunti pekee ndiye anaweza kufikiwa",
+        "contact-title": "Wasiliana na Usaidizi",
+        "contact-text": "Kwa maswali au usaidizi:",
+        "email": "Barua pepe: nguyenanhdev1995@gmail.com",
+        "address": "Anwani: Barabara ya D1 52, Phuoc Long B, Thu Duc, Jiji la Ho Chi Minh",
+        "footer-text": "© 2023 DA ServePro. Haki zote zimehifadhiwa"
+    }
+}
