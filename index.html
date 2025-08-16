@@ -1,83 +1,109 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="google-site-verification" content="naEnLs0rMvppeLDHUhKIOQQs4rcLpGJvdFem4LU9L0U" />
-  <title>Quản Lý Quán - Giải pháp quản lý bán hàng toàn diện</title>
-  <meta name="description" content="Ứng dụng Quản Lý Quán giúp chủ quán tăng doanh thu, giảm thất thoát, và quản lý mọi hoạt động chỉ với 1 chiếc điện thoại. Tải miễn phí ngay!">
+  <title>DA ServePro - Complete Store Management Solution</title>
   <link rel="icon" type="image/png" href="icon.png">
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
-      background: #ffffff;
+      background: #fff;
       color: #333;
       line-height: 1.6;
     }
+
     header {
       background: linear-gradient(135deg, #1e88e5, #42a5f5);
       color: white;
       text-align: center;
       padding: 40px 20px;
     }
+
     header img {
       width: 120px;
       border-radius: 20px;
+      cursor: pointer;
     }
+
     header h1 {
       margin: 20px 0 10px;
       font-size: 32px;
     }
+
     header p {
       font-size: 18px;
       max-width: 600px;
       margin: auto;
     }
+
     .highlight {
       background: yellow;
       color: black;
       padding: 2px 6px;
       border-radius: 4px;
     }
+
+    nav {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
     .container {
       max-width: 900px;
       margin: auto;
       padding: 30px 20px;
     }
+
     h2 {
       text-align: center;
       margin-bottom: 20px;
       font-size: 26px;
       color: #1e88e5;
     }
+
     .features {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 20px;
       margin-top: 30px;
     }
+
     .feature {
       background: #f9f9f9;
       border-radius: 10px;
       padding: 20px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
       transition: transform 0.2s;
     }
+
     .feature:hover {
       transform: translateY(-3px);
     }
+
     .feature h3 {
       margin-bottom: 10px;
       color: #1e88e5;
     }
+
     .download {
       text-align: center;
       margin-top: 40px;
     }
+
     .download a img {
       width: 180px;
     }
+
     .cta {
       background: #1e88e5;
       color: white;
@@ -86,13 +112,16 @@
       margin-top: 40px;
       border-radius: 10px;
     }
+
     .cta h3 {
       margin-bottom: 10px;
       font-size: 24px;
     }
+
     .cta p {
       margin-bottom: 15px;
     }
+
     footer {
       text-align: center;
       padding: 20px;
@@ -103,57 +132,102 @@
     }
   </style>
 </head>
+
 <body>
 
   <header>
-    <img src="icon.png" alt="Icon Ứng dụng Quản Lý Quán">
-    <h1>Quản Lý Quán</h1>
-    <p><span class="highlight">Tăng doanh thu – Giảm thất thoát – Quản lý mọi thứ</span> chỉ với một chiếc điện thoại!</p>
+    <a href="/"><img src="icon.png" alt="DA ServePro"></a>
+    <h1 id="app-name">DA ServePro</h1>
+    <p id="app-tagline"><span class="highlight">Boost revenue – Reduce loss – Manage everything</span> with just one
+      phone!</p>
+    <nav>
+      <a href="policy" id="nav-policy">Policy</a> |
+      <a href="support" id="nav-support">Support</a>
+    </nav>
   </header>
 
   <div class="container">
-    <h2>🚀 Tại sao chủ quán cần Quản Lý Quán?</h2>
-    <p>Ứng dụng giúp bạn và nhân viên kiểm soát toàn bộ hoạt động bán hàng <strong>mọi lúc, mọi nơi</strong> — từ tạo đơn, theo dõi đơn, đến báo cáo doanh thu chi tiết. Dù bạn kinh doanh <em>cà phê, ăn uống, bán lẻ hay dịch vụ</em>, Quản Lý Quán đều có thể tùy chỉnh để phù hợp với nhu cầu của bạn.</p>
+    <h2 id="section-why">🚀 Why DA ServePro?</h2>
+    <p id="desc-app">The app helps you and your staff control all sales activities <strong>anytime, anywhere</strong> —
+      from order creation, tracking, to detailed revenue reports. Whether you run <em>coffee shops, restaurants, retail,
+        or services</em>, DA ServePro can be customized to fit your needs.</p>
 
     <div class="features">
       <div class="feature">
-        <h3>📦 Tạo đơn hàng trong vài giây</h3>
-        <p>Giao diện siêu đơn giản, thao tác nhanh gọn. Không mất thời gian chờ đợi.</p>
+        <h3>📦 Fast order creation</h3>
+        <p>Create orders quickly with a super simple interface.</p>
       </div>
       <div class="feature">
-        <h3>📋 Quản lý đơn hàng</h3>
-        <p>Theo dõi tình trạng đơn hàng <strong>theo thời gian thực</strong>.</p>
+        <h3>📋 Order management</h3>
+        <p>Track order status <strong>in real-time</strong>.</p>
       </div>
       <div class="feature">
-        <h3>📊 Báo cáo doanh thu</h3>
-        <p>Tự động tổng hợp doanh số, sản phẩm bán chạy và hiệu suất nhân viên.</p>
+        <h3>📊 Revenue reports</h3>
+        <p>Automatically summarize sales, best-selling items, and staff performance.</p>
       </div>
       <div class="feature">
-        <h3>👥 Phân quyền nhân viên</h3>
-        <p>Kiểm soát quyền hạn rõ ràng cho từng vai trò, tránh thất thoát.</p>
+        <h3>👥 Staff permissions</h3>
+        <p>Manage role-based access to prevent loss.</p>
       </div>
       <div class="feature">
-        <h3>☁️ Đồng bộ dữ liệu</h3>
-        <p>Mọi dữ liệu lưu trữ an toàn, đồng bộ trên mọi thiết bị.</p>
+        <h3>☁️ Secure data storage</h3>
+        <p>All data is stored safely and synchronized across devices.</p>
       </div>
       <div class="feature">
-        <h3>🔒 Bảo mật tuyệt đối</h3>
-        <p>Dữ liệu được mã hóa, chỉ bạn mới có quyền truy cập.</p>
+        <h3>🔒 Privacy protection</h3>
+        <p>Data is encrypted, only accessible by you.</p>
       </div>
     </div>
 
     <div class="cta">
-      <h3>📥 Tải ngay – Bắt đầu quản lý thông minh hôm nay!</h3>
-      <p>Ứng dụng hoàn toàn miễn phí. Dễ dùng, hiệu quả và chuyên nghiệp.</p>
+      <h3>📥 Download now – Start smart management today!</h3>
+      <p>The app is free, easy to use, and professional.</p>
       <a href="https://apps.apple.com/app/id6749021110" target="_blank">
-        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Tải trên App Store">
+        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+          alt="Download on the App Store">
       </a>
     </div>
   </div>
 
   <footer>
-    © 2025 Ứng dụng Quản Lý Quán. Mọi quyền được bảo lưu.
+    © 2025 DA ServePro. All rights reserved.
   </footer>
 
+  <script>
+    // Multi-language support
+    const lang = navigator.language || navigator.userLanguage;
+    const isVietnamese = lang.toLowerCase().startsWith('vi');
+
+    if (isVietnamese) {
+      document.getElementById('app-name').textContent = 'DA ServePro';
+      document.getElementById('app-tagline').innerHTML = '<span class="highlight">Tăng doanh thu – Giảm thất thoát – Quản lý mọi thứ</span> chỉ với một chiếc điện thoại!';
+      document.getElementById('nav-policy').textContent = 'Chính sách';
+      document.getElementById('nav-support').textContent = 'Hỗ trợ';
+      document.getElementById('section-why').textContent = '🚀 Tại sao nên dùng DA ServePro?';
+      document.getElementById('desc-app').innerHTML = 'Ứng dụng giúp bạn và nhân viên kiểm soát toàn bộ hoạt động bán hàng <strong>mọi lúc, mọi nơi</strong> — từ tạo đơn, theo dõi đơn, đến báo cáo doanh thu chi tiết. Dù bạn kinh doanh <em>cà phê, ăn uống, bán lẻ hay dịch vụ</em>, DA ServePro đều có thể tùy chỉnh để phù hợp với nhu cầu của bạn.';
+      // Features translation
+      const features = document.querySelectorAll('.feature h3');
+      const featuresDesc = document.querySelectorAll('.feature p');
+      features[0].textContent = '📦 Tạo đơn hàng trong vài giây';
+      featuresDesc[0].textContent = 'Giao diện siêu đơn giản, thao tác nhanh gọn. Không mất thời gian chờ đợi.';
+      features[1].textContent = '📋 Quản lý đơn hàng';
+      featuresDesc[1].textContent = 'Theo dõi tình trạng đơn hàng theo thời gian thực.';
+      features[2].textContent = '📊 Báo cáo doanh thu';
+      featuresDesc[2].textContent = 'Tự động tổng hợp doanh số, sản phẩm bán chạy và hiệu suất nhân viên.';
+      features[3].textContent = '👥 Phân quyền nhân viên';
+      featuresDesc[3].textContent = 'Kiểm soát quyền hạn rõ ràng cho từng vai trò, tránh thất thoát.';
+      features[4].textContent = '☁️ Đồng bộ dữ liệu';
+      featuresDesc[4].textContent = 'Mọi dữ liệu lưu trữ an toàn, đồng bộ trên mọi thiết bị.';
+      features[5].textContent = '🔒 Bảo mật tuyệt đối';
+      featuresDesc[5].textContent = 'Dữ liệu được mã hóa, chỉ bạn mới có quyền truy cập.';
+      // CTA
+      document.querySelector('.cta h3').textContent = '📥 Tải ngay – Bắt đầu quản lý thông minh hôm nay!';
+      document.querySelector('.cta p').textContent = 'Ứng dụng hoàn toàn miễn phí. Dễ dùng, hiệu quả và chuyên nghiệp.';
+      // Footer
+      document.querySelector('footer').textContent = '© 2025 DA ServePro. Mọi quyền được bảo lưu.';
+    }
+  </script>
+
 </body>
+
 </html>
