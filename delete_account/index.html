@@ -1,0 +1,505 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title data-i18n="pageTitle">How to delete your DA ServePro account</title>
+    <meta name="description" data-i18n="metaDesc"
+        content="Guide to delete your DA ServePro account: Setting → Personal information → Delete account → Confirm" />
+    <link rel="icon" href="/icon.png" />
+    <style>
+        :root {
+            --bg: #0b0f14;
+            --card: #11161d;
+            --muted: #8b9bb0;
+            --text: #e8eef6;
+            --accent: #4da3ff;
+            --danger: #ff5c5c;
+            --ok: #21d19f;
+            --border: #1f2a36;
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        html,
+        body {
+            height: 100%
+        }
+
+        body {
+            margin: 0;
+            font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji;
+            background: radial-gradient(1200px 800px at 80% -10%, #123 0%, #0b0f14 50%, #0b0f14 100%);
+            color: var(--text)
+        }
+
+        .container {
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 24px
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            gap: 14px
+        }
+
+        header img {
+            width: 40px;
+            height: 40px;
+            border-radius: 12px
+        }
+
+        header h1 {
+            font-size: clamp(20px, 3vw, 28px);
+            margin: 0
+        }
+
+        header p {
+            margin: 4px 0 0;
+            color: var(--muted)
+        }
+
+        .card {
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0));
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 18px
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 16px
+        }
+
+        @media(min-width:800px) {
+            .grid {
+                grid-template-columns: 1.4fr .9fr
+            }
+        }
+
+        .steps {
+            counter-reset: step
+        }
+
+        .step {
+            display: flex;
+            gap: 14px;
+            align-items: flex-start;
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 14px
+        }
+
+        .step:not(:last-child) {
+            margin-bottom: 12px
+        }
+
+        .badge {
+            flex: 0 0 auto;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: grid;
+            place-items: center;
+            background: rgba(77, 163, 255, .15);
+            border: 1px solid #2d4a6a;
+            color: var(--accent);
+            font-weight: 700
+        }
+
+        .step h3 {
+            margin: 0 0 6px;
+            font-size: 16px
+        }
+
+        .step p {
+            margin: 0;
+            color: var(--muted)
+        }
+
+        .warning {
+            border-left: 4px solid var(--danger);
+            background: linear-gradient(180deg, rgba(255, 92, 92, .08), rgba(255, 92, 92, 0));
+            padding: 12px 14px;
+            border-radius: 10px
+        }
+
+        .ok {
+            border-left: 4px solid var(--ok);
+            background: linear-gradient(180deg, rgba(33, 209, 159, .08), rgba(33, 209, 159, 0));
+            padding: 12px 14px;
+            border-radius: 10px
+        }
+
+        .kbd {
+            display: inline-block;
+            border: 1px solid var(--border);
+            border-bottom-width: 2px;
+            border-radius: 8px;
+            padding: 2px 8px;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+            background: var(--card);
+            color: #cfe3ff
+        }
+
+        details {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 12px
+        }
+
+        details summary {
+            cursor: pointer;
+            font-weight: 600
+        }
+
+        .footer {
+            margin-top: 28px;
+            color: var(--muted);
+            font-size: 14px
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none
+        }
+
+        a:hover {
+            text-decoration: underline
+        }
+
+        .inline-steps {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            font-size: 14px;
+            color: var(--muted)
+        }
+
+        .inline-steps span {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px
+        }
+
+        .dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: #35506b
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin: 8px 0 18px
+        }
+
+        .hero img {
+            width: 56px;
+            height: 56px;
+            border-radius: 14px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, .35)
+        }
+
+        .hero .title {
+            display: flex;
+            flex-direction: column
+        }
+
+        .hero .title h2 {
+            margin: 0;
+            font-size: 22px
+        }
+
+        .hero .title small {
+            color: var(--muted)
+        }
+
+        .cta-row {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap
+        }
+
+        .btn {
+            appearance: none;
+            border: 1px solid var(--border);
+            background: var(--card);
+            color: var(--text);
+            padding: 10px 14px;
+            border-radius: 12px;
+            cursor: pointer;
+            font-weight: 600
+        }
+
+        .btn:hover {
+            filter: brightness(1.08)
+        }
+
+        .btn-danger {
+            border-color: #5b2323;
+            background: linear-gradient(180deg, rgba(255, 92, 92, .18), rgba(255, 92, 92, .04));
+            color: #ffdede
+        }
+
+        .btn-ghost {
+            background: transparent
+        }
+
+        .illus {
+            display: grid;
+            place-items: center;
+            border: 1px dashed #294158;
+            border-radius: 16px;
+            padding: 14px;
+            color: var(--muted)
+        }
+
+        .lang-switch {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+            gap: 8px
+        }
+
+        select {
+            background: var(--card);
+            color: var(--text);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 6px 10px
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="/icon.png" alt="DA ServePro icon" />
+            <div>
+                <h1 data-i18n="h1Title">Delete your DA ServePro account <span style="opacity:.82">– quick guide</span>
+                </h1>
+                <p class="muted" data-i18n-html="quickPath">Quick path: <span class="inline-steps"><span>Open
+                            app</span><span class="dot"></span><span>Setting</span><span
+                            class="dot"></span><span>Personal information</span><span class="dot"></span><span>Delete
+                            account</span><span class="dot"></span><span>Confirm</span></span></p>
+            </div>
+            <div class="lang-switch">
+                <label for="lang" data-i18n="langLabel">Language:</label>
+                <select id="lang" aria-label="Language">
+                    <option value="en">English</option>
+                    <option value="vi">Tiếng Việt</option>
+                </select>
+            </div>
+        </header>
+
+        <div class="grid" style="margin-top:16px">
+            <section class="card">
+                <div class="hero">
+                    <img src="/icon.png" alt="DA ServePro" />
+                    <div class="title">
+                        <h2 data-i18n="introTitle">Finish in 4 steps</h2>
+                        <small data-i18n="introTime">Estimated time: ~1–2 minutes</small>
+                    </div>
+                </div>
+
+                <div class="steps">
+                    <div class="step">
+                        <div class="badge">1</div>
+                        <div>
+                            <h3 data-i18n="s1Title">Open <strong>DA ServePro</strong></h3>
+                            <p data-i18n="s1Desc">Make sure you are signed in with the account you want to delete.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="badge">2</div>
+                        <div>
+                            <h3 data-i18n-html="s2Title">Go to <span class="kbd">Setting</span></h3>
+                            <p data-i18n="s2Desc">From the menu/gear icon, open <em>Setting</em>.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="badge">3</div>
+                        <div>
+                            <h3 data-i18n-html="s3Title">Choose <span class="kbd">Personal information</span> → <span
+                                    class="kbd">Delete account</span></h3>
+                            <p data-i18n="s3Desc">Inside <em>Personal information</em>, scroll and tap <em>Delete
+                                    account</em>.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="badge">4</div>
+                        <div>
+                            <h3 data-i18n-html="s4Title">Confirm <span class="kbd">Confirm</span></h3>
+                            <p data-i18n="s4Desc">Read the warning, enter any required confirmation info, then tap
+                                <em>Confirm</em>.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="warning" style="margin-top:14px">
+                    <strong data-i18n="warnHeader">Important:</strong>
+                    <ul>
+                        <li data-i18n="warn1">This action is <strong>irreversible</strong>. Your account and related
+                            data will be removed per DA ServePro policy.</li>
+                        <li data-i18n="warn2">Back up anything you need (invoices, history, etc.) before confirming.
+                        </li>
+                        <li data-i18n="warn3">If you use Google/Apple sign-in, deleting this account does <em>not</em>
+                            delete data on those services.</li>
+                    </ul>
+                </div>
+
+                <div class="cta-row" style="margin-top:14px">
+                    <button class="btn btn-danger"
+                        onclick="document.getElementById('faq').open=true;document.getElementById('faq').scrollIntoView({behavior:'smooth'})"
+                        data-i18n="btnFaq">View FAQs</button>
+                    <button class="btn btn-ghost" onclick="window.print()" data-i18n="btnPrint">Print this
+                        guide</button>
+                </div>
+            </section>
+
+            <aside class="card">
+                <details id="faq">
+                    <summary data-i18n="faqTitle">Frequently asked questions</summary>
+                    <div style="margin-top:10px;display:grid;gap:10px">
+                        <div>
+                            <strong data-i18n="q1">Will my subscriptions be canceled?</strong>
+                            <p class="muted" data-i18n="a1">Account deletion does not automatically cancel third‑party
+                                subscriptions. Please cancel them in your store or payment provider.</p>
+                        </div>
+                        <div>
+                            <strong data-i18n="q2">Can I recover the account later?</strong>
+                            <p class="muted" data-i18n="a2">No. Deletion is permanent. You may create a new account with
+                                the same email if available.</p>
+                        </div>
+                        <div>
+                            <strong data-i18n="q3">I can’t find Delete account.</strong>
+                            <p class="muted" data-i18n-html="a3">Update the app to the latest version and check: <span
+                                    class="kbd">Setting → Personal information → Delete account</span>.</p>
+                        </div>
+                    </div>
+                </details>
+                <div class="illus" style="margin-top:12px" data-i18n="hint">Tip: keep your device online during the
+                    process.</div>
+            </aside>
+        </div>
+
+        <p class="footer" data-i18n-html="footer">Path: <span class="kbd">Setting</span> → <span class="kbd">Personal
+                information</span> → <span class="kbd">Delete account</span> → <span class="kbd">Confirm</span></p>
+    </div>
+
+    <script>
+        const dict = {
+            en: {
+                pageTitle: "How to delete your DA ServePro account",
+                metaDesc: "Guide to delete your DA ServePro account: Setting → Personal information → Delete account → Confirm",
+                h1Title: "Delete your DA ServePro account – quick guide",
+                quickPath: 'Quick path: <span class="inline-steps"><span>Open app</span><span class="dot"></span><span>Setting</span><span class="dot"></span><span>Personal information</span><span class="dot"></span><span>Delete account</span><span class="dot"></span><span>Confirm</span></span>',
+                langLabel: "Language:",
+                introTitle: "Finish in 4 steps",
+                introTime: "Estimated time: ~1–2 minutes",
+                s1Title: "Open <strong>DA ServePro</strong>",
+                s1Desc: "Make sure you are signed in with the account you want to delete.",
+                s2Title: 'Go to <span class="kbd">Setting</span>',
+                s2Desc: "From the menu/gear icon, open Setting.",
+                s3Title: 'Choose <span class="kbd">Personal information</span> → <span class="kbd">Delete account</span>',
+                s3Desc: "Inside Personal information, scroll and tap Delete account.",
+                s4Title: 'Confirm <span class="kbd">Confirm</span>',
+                s4Desc: "Read the warning, enter any required confirmation info, then tap Confirm.",
+                warnHeader: "Important:",
+                warn1: "This action is irreversible. Your account and related data will be removed per DA ServePro policy.",
+                warn2: "Back up anything you need (invoices, history, etc.) before confirming.",
+                warn3: "If you use Google/Apple sign-in, deleting this account does not delete data on those services.",
+                btnFaq: "View FAQs",
+                btnPrint: "Print this guide",
+                faqTitle: "Frequently asked questions",
+                q1: "Will my subscriptions be canceled?",
+                a1: "Account deletion does not automatically cancel third‑party subscriptions. Please cancel them in your store or payment provider.",
+                q2: "Can I recover the account later?",
+                a2: "No. Deletion is permanent. You may create a new account with the same email if available.",
+                q3: "I can’t find Delete account.",
+                a3: 'Update the app to the latest version and check: <span class="kbd">Setting → Personal information → Delete account</span>.',
+                hint: "Tip: keep your device online during the process.",
+                footer: 'Path: <span class="kbd">Setting</span> → <span class="kbd">Personal information</span> → <span class="kbd">Delete account</span> → <span class="kbd">Confirm</span>'
+            },
+            vi: {
+                pageTitle: "Hướng dẫn xoá tài khoản DA ServePro",
+                metaDesc: "Trang hướng dẫn xoá tài khoản DA ServePro: Setting → Personal information → Delete account → Confirm",
+                h1Title: "Hướng dẫn xoá tài khoản – DA ServePro",
+                quickPath: 'Thao tác nhanh: <span class="inline-steps"><span>Mở ứng dụng</span><span class="dot"></span><span>Setting</span><span class="dot"></span><span>Personal information</span><span class="dot"></span><span>Delete account</span><span class="dot"></span><span>Confirm</span></span>',
+                langLabel: "Ngôn ngữ:",
+                introTitle: "Thực hiện trong 4 bước",
+                introTime: "Thời gian: ~1–2 phút",
+                s1Title: "Mở <strong>DA ServePro</strong>",
+                s1Desc: "Đảm bảo bạn đăng nhập bằng tài khoản muốn xoá.",
+                s2Title: 'Vào <span class="kbd">Setting</span>',
+                s2Desc: "Từ menu/biểu tượng bánh răng, mở Setting.",
+                s3Title: 'Chọn <span class="kbd">Personal information</span> → <span class="kbd">Delete account</span>',
+                s3Desc: "Trong Personal information, cuộn xuống và nhấn Delete account.",
+                s4Title: 'Xác nhận <span class="kbd">Confirm</span>',
+                s4Desc: "Đọc kỹ cảnh báo, nhập thông tin xác nhận (nếu có), rồi nhấn Confirm.",
+                warnHeader: "Lưu ý quan trọng:",
+                warn1: "Hành động này không thể hoàn tác. Tài khoản và dữ liệu liên quan sẽ bị xoá theo chính sách của DA ServePro.",
+                warn2: "Hãy sao lưu dữ liệu cần thiết (hóa đơn, lịch sử, v.v.) trước khi xác nhận.",
+                warn3: "Nếu dùng đăng nhập Google/Apple, việc xoá tài khoản này không xoá dữ liệu trên các dịch vụ đó.",
+                btnFaq: "Xem Câu hỏi thường gặp",
+                btnPrint: "In hướng dẫn này",
+                faqTitle: "Câu hỏi thường gặp",
+                q1: "Các gói đăng ký có bị huỷ không?",
+                a1: "Xoá tài khoản không tự động huỷ các gói của bên thứ ba. Hãy huỷ trong cửa hàng hoặc nhà cung cấp thanh toán.",
+                q2: "Tôi có thể khôi phục tài khoản không?",
+                a2: "Không. Việc xoá là vĩnh viễn. Bạn có thể tạo tài khoản mới bằng cùng email nếu còn khả dụng.",
+                q3: "Tôi không thấy mục Delete account.",
+                a3: 'Hãy cập nhật ứng dụng lên phiên bản mới nhất và kiểm tra: <span class="kbd">Setting → Personal information → Delete account</span>.',
+                hint: "Mẹo: giữ kết nối Internet ổn định trong suốt quá trình.",
+                footer: 'Đường dẫn: <span class="kbd">Setting</span> → <span class="kbd">Personal information</span> → <span class="kbd">Delete account</span> → <span class="kbd">Confirm</span>'
+            }
+        };
+
+        function applyI18n(locale) {
+            const t = dict[locale] || dict.en;
+            document.documentElement.lang = locale === 'vi' ? 'vi' : 'en';
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (t[key] !== undefined) el.textContent = t[key];
+            });
+            document.querySelectorAll('[data-i18n-html]').forEach(el => {
+                const key = el.getAttribute('data-i18n-html');
+                if (t[key] !== undefined) el.innerHTML = t[key];
+            });
+            const titleEl = document.querySelector('title[data-i18n="pageTitle"]');
+            if (titleEl) titleEl.textContent = t.pageTitle;
+            const metaDesc = document.querySelector('meta[name="description"][data-i18n="metaDesc"]');
+            if (metaDesc) metaDesc.setAttribute('content', t.metaDesc);
+            const sel = document.getElementById('lang');
+            if (sel && sel.value !== locale) sel.value = locale;
+        }
+
+        const detected = (navigator.language || navigator.userLanguage || 'en').slice(0, 2).toLowerCase();
+        const initial = (detected === 'vi') ? 'vi' : 'en';
+        try {
+            const saved = localStorage.getItem('da-sp-lang');
+            applyI18n(saved || initial);
+            if (saved) document.getElementById('lang').value = saved;
+        } catch {
+            applyI18n(initial);
+        }
+
+        document.getElementById('lang').addEventListener('change', (e) => {
+            applyI18n(e.target.value);
+            try { localStorage.setItem('da-sp-lang', e.target.value); } catch { }
+        });
+    </script>
+</body>
+
+</html>
