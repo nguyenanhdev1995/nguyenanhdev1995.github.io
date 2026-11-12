@@ -1,263 +1,235 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="vi">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DA ServePro - Complete Store Management Solution</title>
-  <link rel="icon" type="image/png" href="icon.png">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background: #fff;
-      color: #333;
-      line-height: 1.6;
-    }
-
-    header {
-      background: linear-gradient(135deg, #1e88e5, #42a5f5);
-      color: white;
-      text-align: center;
-      padding: 40px 20px;
-    }
-
-    header img {
-      width: 120px;
-      border-radius: 20px;
-      cursor: pointer;
-    }
-
-    header h1 {
-      margin: 20px 0 10px;
-      font-size: 32px;
-    }
-
-    header p {
-      font-size: 18px;
-      max-width: 600px;
-      margin: auto;
-    }
-
-    .highlight {
-      background: yellow;
-      color: black;
-      padding: 2px 6px;
-      border-radius: 4px;
-    }
-
-    nav {
-      text-align: center;
-      margin-top: 10px;
-    }
-
-    nav a {
-      margin: 0 10px;
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .container {
-      max-width: 900px;
-      margin: auto;
-      padding: 30px 20px;
-    }
-
-    h2 {
-      text-align: center;
-      margin-bottom: 20px;
-      font-size: 26px;
-      color: #1e88e5;
-    }
-
-    .features {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-      margin-top: 30px;
-    }
-
-    .feature {
-      background: #f9f9f9;
-      border-radius: 10px;
-      padding: 20px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-      transition: transform 0.2s;
-    }
-
-    .feature:hover {
-      transform: translateY(-3px);
-    }
-
-    .feature h3 {
-      margin-bottom: 10px;
-      color: #1e88e5;
-    }
-
-    .download {
-      text-align: center;
-      margin-top: 40px;
-    }
-
-    .download a img {
-      width: 180px;
-    }
-
-    .cta {
-      background: #1e88e5;
-      color: white;
-      text-align: center;
-      padding: 20px;
-      margin-top: 40px;
-      border-radius: 10px;
-    }
-
-    .cta h3 {
-      margin-bottom: 10px;
-      font-size: 24px;
-    }
-
-    .cta p {
-      margin-bottom: 15px;
-    }
-
-    footer {
-      text-align: center;
-      padding: 20px;
-      font-size: 14px;
-      color: #777;
-      background: #f1f1f1;
-      margin-top: 40px;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nhớ Nợ × Âm Lịch — 2 Ứng Dụng Cho Cuộc Sống Việt</title>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--violet:#7C3AED;--violet2:#4F46E5;--blue:#0EA5E9;--green:#059669;--dark:#0F172A}
+body{font-family:'Be Vietnam Pro',sans-serif;background:#FBFBFE;color:#0F172A;overflow-x:hidden}
+a{text-decoration:none;color:inherit}
+.container{max-width:1180px;margin:0 auto;padding:0 20px}
+/* NAV */
+.nav{position:fixed;top:0;left:0;right:0;z-index:50;backdrop-filter:blur(16px);background:rgba(255,255,255,.82);border-bottom:1px solid #EEF2FF}
+.nav-in{max-width:1180px;margin:0 auto;padding:0 20px;height:68px;display:flex;align-items:center;justify-content:space-between}
+.logo{display:flex;gap:10px;align-items:center;font-weight:900;font-size:18px;letter-spacing:-.5px}
+.logo-badge{width:36px;height:36px;border-radius:11px;background:linear-gradient(135deg,#7C3AED,#0EA5E9);display:grid;place-items:center;color:white;font-size:18px}
+.nav-links{display:flex;gap:28px;font-size:14px;font-weight:600;color:#475569}
+.nav-links a.active{color:#7C3AED}
+.btn{padding:12px 22px;border-radius:999px;font-weight:700;font-size:14px;border:none;cursor:pointer;display:inline-flex;align-items:center;gap:8px}
+.btn-dark{background:#0F172A;color:white}
+.btn-white{background:white;color:#0F172A;border:1px solid #E2E8F0}
+/* HERO */
+.hero{padding:140px 0 60px;position:relative}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(800px 400px at 15% 10%, #DDD6FE 0%, transparent 60%),radial-gradient(700px 400px at 90% 20%, #BAE6FD 0%, transparent 60%),radial-gradient(600px 400px at 50% 90%, #BBF7D0 0%, transparent 60%);opacity:.7;pointer-events:none}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center;position:relative}
+.eyebrow{display:inline-flex;gap:8px;align-items:center;background:white;border:1px solid #E2E8F0;padding:7px 12px;border-radius:999px;font-size:12px;font-weight:700;letter-spacing:.08em}
+.dot{width:8px;height:8px;border-radius:50%;background:#22C55E;box-shadow:0 0 0 4px #DCFCE7}
+.h1{font-size:56px;line-height:1.02;letter-spacing:-2px;font-weight:900;margin:20px 0 16px}
+.h1 span{background:linear-gradient(90deg,#7C3AED,#0EA5E9,#059669);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.sub{font-size:17px;line-height:1.65;color:#475569;max-width:560px}
+.hero-apps{display:flex;gap:14px;margin-top:28px;flex-wrap:wrap}
+.app-pill{display:flex;align-items:center;gap:12px;background:white;border:1px solid #E2E8F0;border-radius:16px;padding:12px 16px;box-shadow:0 8px 24px rgba(0,0,0,.06)}
+.app-pill img{width:44px;height:44px;border-radius:12px;object-fit:cover}
+.app-pill b{font-size:15px}
+.app-pill small{color:#64748B;font-size:12px}
+.hero-phones{display:flex;gap:16px;justify-content:center}
+.phone{width:210px;border-radius:36px;overflow:hidden;border:7px solid #0F172A;box-shadow:0 24px 50px rgba(0,0,0,.22);background:white}
+.phone img{width:100%;display:block;aspect-ratio:9/19;object-fit:cover}
+.phone:nth-child(2){transform:translateY(28px) rotate(3deg)}
+.phone:first-child{transform:rotate(-3deg)}
+.badge-float{position:absolute;bottom:20px;left:-10px;background:white;border-radius:14px;padding:10px 14px;box-shadow:0 12px 30px rgba(0,0,0,.12);font-size:13px;font-weight:700}
+/* TABS */
+.tabs{margin:40px 0 0;display:flex;gap:10px;justify-content:center}
+.tab{padding:14px 26px;border-radius:999px;background:white;border:1.5px solid #E2E8F0;font-weight:800;cursor:pointer;font-size:15px}
+.tab.active{background:#0F172A;color:white;border-color:#0F172A}
+/* SECTION */
+.section{padding:72px 0}
+.sec-head{max-width:720px;margin:0 auto;text-align:center}
+.sec-head h2{font-size:38px;letter-spacing:-1px;line-height:1.1;font-weight:900}
+.sec-head p{color:#64748B;margin-top:12px;line-height:1.6}
+.card-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:36px}
+.card{background:white;border:1px solid #F1F5F9;border-radius:22px;padding:22px;transition:.25s}
+.card:hover{transform:translateY(-4px);box-shadow:0 20px 40px rgba(0,0,0,.08)}
+.card-icon{width:48px;height:48px;border-radius:14px;display:grid;place-items:center;font-size:22px;margin-bottom:14px}
+.card h3{font-size:17px;margin-bottom:8px}
+.card p{font-size:14px;line-height:1.6;color:#64748B}
+.purple .card-icon{background:#F5F3FF}
+.green .card-icon{background:#ECFDF5}
+/* SHOWCASE */
+.showcase{border-radius:28px;overflow:hidden;margin-top:48px;display:grid;grid-template-columns:1fr 1fr}
+.showcase-left{padding:36px}
+.showcase-left h3{font-size:28px;line-height:1.2;font-weight:900}
+.showcase-left p{color:#475569;line-height:1.65;margin:12px 0 20px;font-size:15px}
+.showcase-right{display:grid;grid-template-columns:1fr 1fr;gap:14px;padding:18px}
+.showcase-right img{width:100%;border-radius:20px;border:4px solid white;box-shadow:0 12px 30px rgba(0,0,0,.15);aspect-ratio:9/18;object-fit:cover}
+.stat-row{display:flex;gap:12px;margin-top:18px}
+.stat{flex:1;background:rgba(255,255,255,.9);border-radius:16px;padding:14px;text-align:center}
+.stat b{font-size:20px;display:block}
+.stat span{font-size:12px;color:#64748B}
+.purple-bg{background:linear-gradient(135deg,#7C3AED,#3B82F6);color:white}
+.purple-bg p{color:#EDE9FE}
+.green-bg{background:linear-gradient(135deg,#059669,#0D9488);color:white}
+.green-bg p{color:#CCFBF1}
+/* FEATURE LIST */
+.feature-row{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:center;margin-top:56px}
+.feature-row img{width:100%;border-radius:24px;box-shadow:0 20px 50px rgba(0,0,0,.15)}
+.check{list-style:none;margin-top:16px}
+.check li{display:flex;gap:10px;padding:10px 0;border-bottom:1px dashed #E2E8F0;font-size:15px}
+.check li i{width:24px;height:24px;min-width:24px;border-radius:50%;background:#DCFCE7;color:#15803D;display:grid;place-items:center;font-style:normal;font-weight:800}
+/* VAN KHAN */
+.vankhan{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:28px}
+.vk{background:white;border-radius:18px;padding:16px;border:1px solid #E2E8F0}
+.vk b{font-size:14px}
+.vk p{font-size:12px;color:#64748B;margin-top:4px;line-height:1.5}
+.vk span{font-size:11px;background:#FEF3C7;color:#92400E;padding:4px 8px;border-radius:999px;font-weight:700;display:inline-block;margin-top:10px}
+.cta{background:#0F172A;color:white;border-radius:28px;padding:48px;text-align:center;margin:20px 0 60px}
+.cta h2{font-size:36px;letter-spacing:-1px}
+.cta p{color:#CBD5E1;margin:12px 0 24px}
+@media(max-width:860px){
+.h1{font-size:38px}.hero-grid{grid-template-columns:1fr}.card-grid{grid-template-columns:1fr}.showcase{grid-template-columns:1fr}.feature-row{grid-template-columns:1fr}.vankhan{grid-template-columns:1fr 1fr}.hero-phones{margin-top:10px}.phone{width:46%}
+.nav-links{display:none}
+}
+</style>
 </head>
-
 <body>
+<div class="nav"><div class="nav-in">
+<div class="logo"><div class="logo-badge">✦</div> Nhớ Nợ <span style="color:#94A3B8;font-weight:400">×</span> Âm Lịch</div>
+<div class="nav-links"><a href="#nho-no" class="active">Nhớ Nợ</a><a href="#am-lich">Âm Lịch</a><a href="#van-khan">Văn Khấn</a></div>
+<button class="btn btn-dark" onclick="document.getElementById('nho-no').scrollIntoView({behavior:'smooth'})">Khám phá ngay ↓</button>
+</div></div>
 
-  <header>
-    <script async="async" data-cfasync="false"
-      src="//pl27445667.profitableratecpm.com/d3d50fd10ed5a466256f0780a83bef6a/invoke.js"></script>
+<div class="container hero">
+<div class="hero-grid">
+<div>
+<div class="eyebrow"><span class="dot"></span> 2 APP • THIẾT KẾ CHO NGƯỜI VIỆT • iOS</div>
+<h1>Quản lý <span>nợ nần</span><br>không quên,<br>xem <span>ngày đẹp</span><br>không lo.</h1>
+<p class="sub">Một app giúp bạn nhớ ai nợ mình, ai mình đang nợ. Một app giúp bạn xem ngày âm, giờ đẹp, văn khấn chuẩn. Cả hai đều nhanh, gọn, dễ dùng như nhắn tin.</p>
+<div class="hero-apps">
+<div class="app-pill"><span style="font-size:28px">📒</span><div><b>Nhớ Nợ</b><br><small>Không quên nợ, không lo mất lòng</small></div></div>
+<div class="app-pill"><span style="font-size:28px">📅</span><div><b>Âm Lịch & Văn Khấn</b><br><small>Lịch Việt, hồn Việt</small></div></div>
+</div>
+<div style="margin-top:26px;display:flex;gap:10px">
+<button class="btn btn-dark" onclick="document.getElementById('nho-no').scrollIntoView({behavior:'smooth'})">Xem Nhớ Nợ →</button>
+<button class="btn btn-white" onclick="document.getElementById('am-lich').scrollIntoView({behavior:'smooth'})">Xem Âm Lịch</button>
+</div>
+<p style="margin-top:16px;font-size:13px;color:#94A3B8">⭐ Ghi nợ chỉ 3 giây &nbsp;•&nbsp; Xem lịch không cần mạng &nbsp;•&nbsp; Giao diện tiếng Việt 100%</p>
+</div>
+<div style="position:relative">
+<div class="hero-phones">
+<div class="phone"><img src="Screenshot_iPhone_18_Pro_12-11-2026_at_01.10.01.png"></div>
+<div class="phone"><img src="Screenshot_iPhone_18_Pro_12-11-2026_at_14.10.52.png"></div>
+</div>
+<div class="badge-float">💰 11.000.000đ đang cho vay &nbsp;•&nbsp; 📅 12/11 = 4/10 âm lịch</div>
+</div>
+</div>
+</div>
 
-    <script type="text/javascript"
-      src="//www.highperformanceformat.com/37dfa769ebd9e60593c6a20ecfa6ecf4/invoke.js"></script>
-    <div id="container-d3d50fd10ed5a466256f0780a83bef6a"></div>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1153757844877261"
-      crossorigin="anonymous"></script>
-    <a href="/"><img src="icon.png" alt="DA ServePro"></a>
-    <h1 id="app-name">DA ServePro</h1>
-    <p id="app-tagline"><span class="highlight">Boost revenue – Reduce loss – Manage everything</span> with just one
-      phone!</p>
-    <nav>
-      <a href="policy" id="nav-policy">Policy</a> |
-      <a href="support" id="nav-support">Support</a>
-    </nav>
-    <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-      <a href="https://apps.apple.com/app/id6749021110" target="_blank">
-        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
-          alt="Download on the App Store" style="height: 60px;">
-      </a>
+<!-- NHO NO -->
+<div class="container section" id="nho-no">
+<div class="sec-head"><div class="eyebrow" style="color:#7C3AED">APP 01 — QUẢN LÝ NỢ</div><h2 style="margin-top:14px">Nhớ Nợ<br><span style="color:#7C3AED">Tiền bạc rõ ràng,<br>tình cảm còn nguyên.</span></h2><p>Cho vay, mượn nợ, chia tiền ăn uống — ghi 1 lần là nhớ mãi. Không còn cảnh ngại nhắc, không còn cảnh quên mất ai nợ bao nhiêu.</p></div>
 
-      <a href="/download/DAServePro.apk" target="_blank">
-        <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
-          alt="Get it on Google Play" style="height: 60px;">
-      </a>
-    </div>
+<div class="card-grid purple">
+<div class="card"><div class="card-icon">📊</div><h3>Tổng quan 1 chạm</h3><p>Tổng phải thu / phải trả hiển thị ngay màn hình chính. Biết ngay hôm nay mình đang cho vay bao nhiêu, đang nợ ai bao nhiêu.</p></div>
+<div class="card"><div class="card-icon">⚡</div><h3>Ghi nợ nhanh 3 giây</h3><p>Chọn người → Nhập số tiền → Ghi lý do → Xong. Có sẵn ngày cho vay, ngày hẹn trả. Không bắt buộc, không rườm rà.</p></div>
+<div class="card"><div class="card-icon">⏰</div><h3>Nhắc hạn thông minh</h3><p>Sắp đến hạn, quá hạn tự động nổi bật. Ví dụ: 10.000.000đ hạn 19/11, 1.000.000đ hạn 29/11 — nhìn là biết phải nhắc ai trước.</p></div>
+<div class="card"><div class="card-icon">👥</div><h3>Danh bạ tài chính</h3><p>Mỗi người là 1 hồ sơ: Họ nợ mình bao nhiêu, Mình nợ họ bao nhiêu, bao nhiêu khoản đang mở. Tìm tên hoặc SĐT là ra.</p></div>
+<div class="card"><div class="card-icon">🧾</div><h3>Chi tiết từng khoản</h3><p>Mỗi khoản nợ có ghi chú (Assad, Eee...), tổng còn phải thu, đã thu, % đã thanh toán, trạng thái Còn thời hạn / Đang mở.</p></div>
+<div class="card"><div class="card-icon">💸</div><h3>Ghi nhận thu tiền</h3><p>Người ta trả 1 phần hay trả hết? Bấm “Ghi nhận thu tiền” là cập nhật ngay, không cần xóa, không cần ghi lại từ đầu.</p></div>
+</div>
 
-  </header>
+<div class="showcase purple-bg">
+<div class="showcase-left">
+<h3>Dashboard khiến bạn “nhìn là hiểu”</h3>
+<p>2 khoản đang mở, top người nợ nhiều nhất, khoản sắp đến hạn — tất cả gói gọn trong 1 màn hình. Không cần học, không cần hướng dẫn.</p>
+<ul style="list-style:none;line-height:2;font-size:15px;font-weight:600">
+<li>✓ Tổng phải thu: 11.000.000đ</li>
+<li>✓ Tổng phải trả: 0đ — đang nhẹ đầu</li>
+<li>✓ Top 1: Aaa — 2 khoản nợ — 11.000.000đ</li>
+</ul>
+<div class="stat-row"><div class="stat" style="color:#0F172A"><b>3 giây</b><span>Ghi 1 khoản nợ</span></div><div class="stat" style="color:#0F172A"><b>100%</b><span>Tiếng Việt</span></div><div class="stat" style="color:#0F172A"><b>0</b><span>Quảng cáo</span></div></div>
+</div>
+<div class="showcase-right">
+<img src="Screenshot_iPhone_18_Pro_12-11-2026_at_01.10.05.png">
+<img src="Screenshot_iPhone_18_Pro_12-11-2026_at_01.10.08.png">
+</div>
+</div>
 
-  <div class="container">
-    <h2 id="section-why">🚀 Why DA ServePro?</h2>
-    <p id="desc-app">The app helps you and your staff control all sales activities <strong>anytime, anywhere</strong> —
-      from order creation, tracking, to detailed revenue reports. Whether you run <em>coffee shops, restaurants, retail,
-        or services</em>, DA ServePro can be customized to fit your needs.</p>
+<div class="feature-row">
+<img src="Screenshot_iPhone_18_Pro_12-11-2026_at_01.10.14.png">
+<div><h3 style="font-size:28px;font-weight:900;line-height:1.2">Ghi nợ nhanh,<br>không quên chi tiết nào</h3>
+<ul class="check">
+<li><i>✓</i><span><b>Người ta nợ mình</b> / <b>Mình nợ người ta</b> — chọn 1 chạm là đổi chế độ</span></li>
+<li><i>✓</i><span><b>Chọn người liên hệ</b> từ danh bạ hoặc tạo mới ngay</span></li>
+<li><i>✓</i><span><b>Nhập số tiền</b> + <b>Vì việc gì?</b> — rõ ràng, sau này không cãi nhau</span></li>
+<li><i>✓</i><span><b>Ngày cho vay</b> mặc định hôm nay: 12/11/2026</span></li>
+<li><i>✓</i><span><b>Ngày hẹn trả</b> bật/tắt tùy ý — không bắt buộc</span></li>
+</ul>
+</div>
+</div>
+</div>
 
-    <div class="features">
-      <div class="feature">
-        <h3>📦 Fast order creation</h3>
-        <p>Create orders quickly with a super simple interface.</p>
-      </div>
-      <div class="feature">
-        <h3>📋 Order management</h3>
-        <p>Track order status <strong>in real-time</strong>.</p>
-      </div>
-      <div class="feature">
-        <h3>📊 Revenue reports</h3>
-        <p>Automatically summarize sales, best-selling items, and staff performance.</p>
-      </div>
-      <div class="feature">
-        <h3>👥 Staff permissions</h3>
-        <p>Manage role-based access to prevent loss.</p>
-      </div>
-      <div class="feature">
-        <h3>☁️ Secure data storage</h3>
-        <p>All data is stored safely and synchronized across devices.</p>
-      </div>
-      <div class="feature">
-        <h3>🔒 Privacy protection</h3>
-        <p>Data is encrypted, only accessible by you.</p>
-      </div>
-    </div>
+<!-- AM LICH -->
+<div class="container section" id="am-lich" style="background:#F0FDF4;border-radius:32px;padding-left:28px;padding-right:28px">
+<div class="sec-head"><div class="eyebrow" style="color:#059669">APP 02 — LỊCH VIỆT</div><h2 style="margin-top:14px">Âm Lịch<br><span style="color:#059669">Xem ngày đẹp,<br>sống đúng nhịp Việt.</span></h2><p>Không chỉ là lịch. Là Can Chi, giờ hoàng đạo, sao tốt - xấu, việc nên làm - nên tránh, và cả văn khấn chuẩn cho từng dịp lễ.</p></div>
 
-    <div class="cta">
-      <h3>📥 Download now – Start smart management today!</h3>
-      <p>The app is free, easy to use, and professional.</p>
-      <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-        <a href="https://apps.apple.com/app/id6749021110" target="_blank">
-          <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
-            alt="Download on the App Store" style="height: 60px;">
-        </a>
+<div class="card-grid green">
+<div class="card"><div class="card-icon">🔄</div><h3>Đổi Âm - Dương 1 chạm</h3><p>12/11/2026 dương = 4/10/2026 âm, Thứ Năm. Xem lịch tháng với cả 2 loại ngày song song, bấm ngày nào ra chi tiết ngày đó.</p></div>
+<div class="card"><div class="card-icon">☯️</div><h3>Can Chi đầy đủ</h3><p>Ngày Canh Dần, Tháng Kỷ Hợi, Năm Bính Ngọ. Đủ thông tin để xem tuổi, xem ngày cưới, động thổ, khai trương.</p></div>
+<div class="card"><div class="card-icon">🕐</div><h3>Giờ hoàng đạo</h3><p>Tý (23h-01h), Sửu (01h-03h), Mão (05h-07h), Ngọ (11h-13h), Thân (15h-17h), Dậu (17h-19h) — chọn giờ tốt để làm việc lớn.</p></div>
+<div class="card"><div class="card-icon">⭐</div><h3>Sao tốt - Sao xấu</h3><p>Sao tốt: Thiên Đức, Nguyệt Đức. Nhìn nhanh là biết hôm nay có sao gì chiếu, hợp việc gì.</p></div>
+<div class="card"><div class="card-icon">✅</div><h3>Nên - Kiêng rõ ràng</h3><p>Nên: Sửa chữa nhỏ, Di chuyển. Kiêng: Động thổ, Khai trương. Không cần tra sách, không cần đoán.</p></div>
+<div class="card"><div class="card-icon">🙏</div><h3>Văn Khấn chuẩn</h3><p>Đầy đủ bài khấn cho Mùng 1, Rằm, Ông Công Ông Táo, Giao Thừa, Thần Tài... Mở app là có bài để đọc.</p></div>
+</div>
 
-        <a href="/download/DAServePro.apk" target="_blank">
-          <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
-            alt="Get it on Google Play" style="height: 60px;">
-        </a>
-      </div>
+<div class="showcase green-bg">
+<div class="showcase-left">
+<h3>Hôm nay là ngày gì?</h3>
+<p>Chỉ cần mở app, bạn biết ngay hôm nay tốt hay xấu, nên làm gì, tránh gì. Không cần hỏi thầy, không cần lướt Facebook tìm bài xem ngày.</p>
+<div style="background:rgba(255,255,255,.15);border-radius:16px;padding:16px;margin-top:16px">
+<div style="font-size:12px;opacity:.8">THÁNG 11 - 2026 • ĐÃ CHỌN</div>
+<div style="font-size:36px;font-weight:900">12 — Thứ Năm</div>
+<div style="font-size:15px">Âm lịch: 4/10/2026 • Đã thanh toán 0% lo lắng 😌</div>
+</div>
+</div>
+<div class="showcase-right">
+<img src="Screenshot_iPhone_18_Pro_12-11-2026_at_14.10.57.png">
+<img src="Screenshot_iPhone_18_Pro_12-11-2026_at_14.11.00.png">
+</div>
+</div>
 
-    </div>
-  </div>
+<div id="van-khan" style="margin-top:48px">
+<h3 style="font-size:24px;font-weight:900;text-align:center">📜 Thư viện Văn Khấn — mở là có bài</h3>
+<p style="text-align:center;color:#64748B;margin-top:8px">Mỗi dịp lễ đều có bài khấn riêng, số lượng bài hiển thị rõ ràng.</p>
+<div class="vankhan">
+<div class="vk"><b>🌙 Mùng 1 & Ngày Rằm</b><p>Mùng 1 và 15 âm lịch hàng tháng</p><span>2 bài</span></div>
+<div class="vk"><b>🔥 Ông Công Ông Táo</b><p>23 tháng Chạp</p><span>1 bài</span></div>
+<div class="vk"><b>✨ Lễ Giao Thừa - Trừ Tịch</b><p>Đêm 30 tháng Chạp</p><span>2 bài</span></div>
+<div class="vk"><b>💰 Ngày Vía Thần Tài</b><p>Mùng 10 tháng Giêng</p><span>1 bài</span></div>
+<div class="vk"><b>🏮 Rằm Tháng Giêng - Tết Nguyên Tiêu</b><p>15 tháng Giêng</p><span>1 bài</span></div>
+<div class="vk"><b>🌿 Tết Đoan Ngọ - Giết Sâu Bọ</b><p>Mùng 5 tháng 5</p><span>1 bài</span></div>
+<div class="vk"><b>❤️ Rằm Tháng 7 - Lễ Vu Lan</b><p>Xá Tội Vong Nhân</p><span>2 bài</span></div>
+<div class="vk"><b>🌕 Rằm Tháng 8 - Tết Trung Thu</b><p>15 tháng 8 âm lịch</p><span>1 bài</span></div>
+</div>
+</div>
+</div>
 
-  <footer>
-    © 2025 DA ServePro. All rights reserved.
-  </footer>
-
-  <script>
-    // Multi-language support
-    const lang = navigator.language || navigator.userLanguage;
-    const isVietnamese = lang.toLowerCase().startsWith('vi');
-
-    if (isVietnamese) {
-      document.getElementById('app-name').textContent = 'DA ServePro';
-      document.getElementById('app-tagline').innerHTML = '<span class="highlight">Tăng doanh thu – Giảm thất thoát – Quản lý mọi thứ</span> chỉ với một chiếc điện thoại!';
-      document.getElementById('nav-policy').textContent = 'Chính sách';
-      document.getElementById('nav-support').textContent = 'Hỗ trợ';
-      document.getElementById('section-why').textContent = '🚀 Tại sao nên dùng DA ServePro?';
-      document.getElementById('desc-app').innerHTML = 'Ứng dụng giúp bạn và nhân viên kiểm soát toàn bộ hoạt động bán hàng <strong>mọi lúc, mọi nơi</strong> — từ tạo đơn, theo dõi đơn, đến báo cáo doanh thu chi tiết. Dù bạn kinh doanh <em>cà phê, ăn uống, bán lẻ hay dịch vụ</em>, DA ServePro đều có thể tùy chỉnh để phù hợp với nhu cầu của bạn.';
-      // Features translation
-      const features = document.querySelectorAll('.feature h3');
-      const featuresDesc = document.querySelectorAll('.feature p');
-      features[0].textContent = '📦 Tạo đơn hàng trong vài giây';
-      featuresDesc[0].textContent = 'Giao diện siêu đơn giản, thao tác nhanh gọn. Không mất thời gian chờ đợi.';
-      features[1].textContent = '📋 Quản lý đơn hàng';
-      featuresDesc[1].textContent = 'Theo dõi tình trạng đơn hàng theo thời gian thực.';
-      features[2].textContent = '📊 Báo cáo doanh thu';
-      featuresDesc[2].textContent = 'Tự động tổng hợp doanh số, sản phẩm bán chạy và hiệu suất nhân viên.';
-      features[3].textContent = '👥 Phân quyền nhân viên';
-      featuresDesc[3].textContent = 'Kiểm soát quyền hạn rõ ràng cho từng vai trò, tránh thất thoát.';
-      features[4].textContent = '☁️ Đồng bộ dữ liệu';
-      featuresDesc[4].textContent = 'Mọi dữ liệu lưu trữ an toàn, đồng bộ trên mọi thiết bị.';
-      features[5].textContent = '🔒 Bảo mật tuyệt đối';
-      featuresDesc[5].textContent = 'Dữ liệu được mã hóa, chỉ bạn mới có quyền truy cập.';
-      // CTA
-      document.querySelector('.cta h3').textContent = '📥 Tải ngay – Bắt đầu quản lý thông minh hôm nay!';
-      document.querySelector('.cta p').textContent = 'Ứng dụng hoàn toàn miễn phí. Dễ dùng, hiệu quả và chuyên nghiệp.';
-      // Footer
-      document.querySelector('footer').textContent = '© 2025 DA ServePro. Mọi quyền được bảo lưu.';
-    }
-  </script>
-
-
-
+<div class="container">
+<div class="cta">
+<h2>2 app. 1 triết lý: Đơn giản là đẹp.</h2>
+<p>Không tài khoản rườm rà. Không quảng cáo chen ngang. Mở app là dùng được ngay.</p>
+<div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+<button class="btn" style="background:white;color:#0F172A" onclick="document.getElementById('nho-no').scrollIntoView({behavior:'smooth'})">📒 Trải nghiệm Nhớ Nợ</button>
+<button class="btn" style="background:#059669;color:white" onclick="document.getElementById('am-lich').scrollIntoView({behavior:'smooth'})">📅 Trải nghiệm Âm Lịch</button>
+</div>
+<p style="font-size:12px;margin-top:18px;opacity:.6">Nhớ Nợ • Âm Lịch & Văn Khấn — Thiết kế cho người Việt, dùng mỗi ngày.</p>
+</div>
+</div>
+<script>
+// Smooth tab behavior simple
+document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));t.classList.add('active')}))
+</script>
 </body>
-
 </html>
